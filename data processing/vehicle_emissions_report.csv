@@ -1,0 +1,551 @@
+co2TailpipeGpm,comb08,combE,displ,fuelCost08,fuelType,fuelType1,ghgScore,id,make,model,mpgData,range,Unnamed: 13,VClass,year,youSaveSpend,baseModel,atvType,mfg_emissions (MTCO_2e),disposal_emissions (MTCO_2e),grid_impact_(MTCO_2e / 100miles)
+455,22,0,2.8,2400,Diesel,Diesel,4,42751,GMC,Canyon 4WD,N,0,,Small Pickup Trucks 4WD,2021,-4500,Canyon,Diesel,11,0.1,0
+383,27,0,3,1950,Diesel,Diesel,5,41821,Chevrolet,Silverado 2WD,N,0,,Standard Pickup Trucks 2WD,2020,-2250,Silverado,Diesel,13,0.1,0
+402,25,0,3,2100,Diesel,Diesel,4,49362,Chevrolet,Silverado 2WD,N,0,,Standard Pickup Trucks 2WD,2026,-3000,Silverado,Diesel,13,0.1,0
+430,24,0,3,2200,Diesel,Diesel,4,43109,GMC,Sierra 4WD,Y,0,,Standard Pickup Trucks 4WD,2021,-3500,Sierra,Diesel,13,0.1,0
+448,23,0,3,2300,Diesel,Diesel,4,49396,Chevrolet,Silverado Mud Terrain Tires 4WD,N,0,,Standard Pickup Trucks 4WD,2026,-4000,Silverado,Diesel,13,0.1,0
+411,25,0,3,2100,Diesel,Diesel,4,42965,Jeep,Wrangler 4dr EcoDiesel 4WD,N,0,,Small Sport Utility Vehicle 4WD,2021,-3000,Wrangler,Diesel,7.5,0.1,0
+462,22,0,3,2400,Diesel,Diesel,4,47432,GMC,Yukon XL 4WD,N,0,,Standard Sport Utility Vehicle 4WD,2024,-4500,Yukon,Diesel,9.5,0.1,0
+525,19,0,2.8,2750,Diesel,Diesel,3,41621,Chevrolet,Colorado ZR2 4WD,N,0,,Small Pickup Trucks 4WD,2020,-6250,Colorado,Diesel,11,0.1,0
+479,21,0,3,2500,Diesel,Diesel,4,48213,Chevrolet,Silverado 4WD ZR2,N,0,,Standard Pickup Trucks 4WD,2025,-5000,Silverado,Diesel,13,0.1,0
+442,23,0,3,2300,Diesel,Diesel,4,44596,Chevrolet,Suburban 2WD,N,0,,Standard Sport Utility Vehicle 2WD,2022,-4000,Suburban,Diesel,9.5,0.1,0
+442,23,0,3,2300,Diesel,Diesel,4,47395,Cadillac,Escalade 2WD,N,0,,Standard Sport Utility Vehicle 2WD,2024,-4000,Escalade,Diesel,9.5,0.1,0
+455,22,0,2.8,2400,Diesel,Diesel,4,44392,GMC,Canyon 4WD,N,0,,Small Pickup Trucks 4WD,2022,-4500,Canyon,Diesel,11,0.1,0
+399,26,0,3,2000,Diesel,Diesel,5,48199,Chevrolet,Silverado 2WD,N,0,,Standard Pickup Trucks 2WD,2025,-2500,Silverado,Diesel,13,0.1,0
+418,24,0,3,2200,Diesel,Diesel,4,42155,Ram,1500 4WD,Y,0,,Standard Pickup Trucks 4WD,2020,-3500,1500,Diesel,13,0.1,0
+451,23,0,3,2300,Diesel,Diesel,4,49416,GMC,Sierra Mud Terrain Tires 4WD,N,0,,Standard Pickup Trucks 4WD,2026,-4000,Sierra,Diesel,13,0.1,0
+412,24,0,3,2200,Diesel,Diesel,4,42692,Land Rover,Range Rover Sport,N,0,,Standard Sport Utility Vehicle 4WD,2021,-3500,Range Rover,Diesel,9.5,0.1,0
+428,24,0,3,2200,Diesel,Diesel,4,45564,Chevrolet,Tahoe 2WD,N,0,,Standard Sport Utility Vehicle 2WD,2023,-3500,Tahoe,Diesel,9.5,0.1,0
+460,22,0,3,2400,Diesel,Diesel,4,49913,GMC,Yukon XL 4WD,N,0,,Standard Sport Utility Vehicle 4WD,2026,-4500,Yukon,Diesel,9.5,0.1,0
+456,22,0,2.8,2400,Diesel,Diesel,4,41626,GMC,Canyon 4WD,N,0,,Small Pickup Trucks 4WD,2020,-4500,Canyon,Diesel,11,0.1,0
+435,23,0,2.8,2300,Diesel,Diesel,4,42812,GMC,Canyon 2WD,N,0,,Small Pickup Trucks 2WD,2021,-4000,Canyon,Diesel,11,0.1,0
+442,23,0,3,2300,Diesel,Diesel,4,45565,Chevrolet,Suburban 2WD,N,0,,Standard Sport Utility Vehicle 2WD,2023,-4000,Suburban,Diesel,9.5,0.1,0
+436,24,0,3,2200,Diesel,Diesel,4,43013,Jeep,Gladiator Rubicon EcoDiesel 4WD,N,0,,Standard Pickup Trucks 4WD,2021,-3500,Gladiator,Diesel,13,0.1,0
+462,22,0,3,2400,Diesel,Diesel,4,47423,Chevrolet,Suburban 4WD,N,0,,Standard Sport Utility Vehicle 4WD,2024,-4500,Suburban,Diesel,9.5,0.1,0
+396,26,0,3,2000,Diesel,Diesel,5,45779,GMC,Sierra 2WD,N,0,,Standard Pickup Trucks 2WD,2023,-2500,Sierra,Diesel,13,0.1,0
+524,19,0,3,2750,Diesel,Diesel,3,46850,GMC,Sierra 4WD AT4X,N,0,,Standard Pickup Trucks 4WD,2024,-6250,Sierra,Diesel,13,0.1,0
+425,24,0,3,2200,Diesel,Diesel,4,44595,Chevrolet,Tahoe 2WD,N,0,,Standard Sport Utility Vehicle 2WD,2022,-3500,Tahoe,Diesel,9.5,0.1,0
+480,21,0,3,2500,Diesel,Diesel,4,49397,Chevrolet,Silverado 4WD ZR2 (Sport/Off Road),N,0,,Standard Pickup Trucks 4WD,2026,-5000,Silverado,Diesel,13,0.1,0
+427,24,0,3,2200,Diesel,Diesel,4,41856,GMC,Sierra 4WD AT4,Y,0,,Standard Pickup Trucks 4WD,2020,-3500,Sierra,Diesel,13,0.1,0
+390,26,0,3,2000,Diesel,Diesel,5,42154,Ram,1500 2WD,N,0,,Standard Pickup Trucks 2WD,2020,-2500,1500,Diesel,13,0.1,0
+442,23,0,3,2300,Diesel,Diesel,4,44594,Cadillac,Escalade 2WD,N,0,,Standard Sport Utility Vehicle 2WD,2022,-4000,Escalade,Diesel,9.5,0.1,0
+444,22,0,3,2400,Diesel,Diesel,4,43593,Cadillac,Escalade 4WD,N,0,,Standard Sport Utility Vehicle 4WD,2021,-4500,Escalade,Diesel,9.5,0.1,0
+450,23,0,3,2300,Diesel,Diesel,4,46836,Chevrolet,Silverado 4WD,N,0,,Standard Pickup Trucks 4WD,2024,-4000,Silverado,Diesel,13,0.1,0
+442,23,0,3,2300,Diesel,Diesel,4,49875,Chevrolet,Suburban 2WD,N,0,,Standard Sport Utility Vehicle 2WD,2026,-4000,Suburban,Diesel,9.5,0.1,0
+442,23,0,3,2300,Diesel,Diesel,4,48942,Chevrolet,Suburban 2WD,N,0,,Standard Sport Utility Vehicle 2WD,2025,-4000,Suburban,Diesel,9.5,0.1,0
+442,23,0,3,2300,Diesel,Diesel,4,47408,GMC,Yukon 2WD,N,0,,Standard Sport Utility Vehicle 2WD,2024,-4000,Yukon,Diesel,9.5,0.1,0
+456,22,0,2.8,2400,Diesel,Diesel,4,41622,Chevrolet,Colorado 4WD,N,0,,Small Pickup Trucks 4WD,2020,-4500,Colorado,Diesel,11,0.1,0
+430,24,0,3,2200,Diesel,Diesel,4,43110,GMC,Sierra 4WD AT4,N,0,,Standard Pickup Trucks 4WD,2021,-3500,Sierra,Diesel,13,0.1,0
+428,24,0,3,2200,Diesel,Diesel,4,48209,Chevrolet,Silverado 4WD,N,0,,Standard Pickup Trucks 4WD,2025,-3500,Silverado,Diesel,13,0.1,0
+463,22,0,3,2400,Diesel,Diesel,4,45813,GMC,Sierra Mud Terrain Tires 4WD,Y,0,,Standard Pickup Trucks 4WD,2023,-4500,Sierra,Diesel,13,0.1,0
+428,24,0,3,2200,Diesel,Diesel,4,48229,GMC,Sierra 4WD,N,0,,Standard Pickup Trucks 4WD,2025,-3500,Sierra,Diesel,13,0.1,0
+412,24,0,3,2200,Diesel,Diesel,4,41635,Land Rover,Range Rover Sport,N,0,,Standard Sport Utility Vehicle 4WD,2020,-3500,Range Rover,Diesel,9.5,0.1,0
+437,23,0,3,2300,Diesel,Diesel,4,43494,Chevrolet,Suburban 2WD,N,0,,Standard Sport Utility Vehicle 2WD,2021,-4000,Suburban,Diesel,9.5,0.1,0
+525,19,0,2.8,2750,Diesel,Diesel,3,42750,Chevrolet,Colorado ZR2 4WD,N,0,,Small Pickup Trucks 4WD,2021,-6250,Colorado,Diesel,11,0.1,0
+463,22,0,3,2400,Diesel,Diesel,4,46837,Chevrolet,Silverado Mud Terrain Tires 4WD,N,0,,Standard Pickup Trucks 4WD,2024,-4500,Silverado,Diesel,13,0.1,0
+455,22,0,3,2400,Diesel,Diesel,4,48960,GMC,Yukon 4WD,N,0,,Standard Sport Utility Vehicle 4WD,2025,-4500,Yukon,Diesel,9.5,0.1,0
+444,22,0,3,2400,Diesel,Diesel,4,43595,Chevrolet,Tahoe 4WD,Y,0,,Standard Sport Utility Vehicle 4WD,2021,-4500,Tahoe,Diesel,9.5,0.1,0
+442,23,0,3,2300,Diesel,Diesel,4,44598,GMC,Yukon XL 2WD,N,0,,Standard Sport Utility Vehicle 2WD,2022,-4000,Yukon,Diesel,9.5,0.1,0
+442,23,0,3,2300,Diesel,Diesel,4,47401,Chevrolet,Suburban 2WD,N,0,,Standard Sport Utility Vehicle 2WD,2024,-4000,Suburban,Diesel,9.5,0.1,0
+437,23,0,3,2300,Diesel,Diesel,4,43496,GMC,Yukon XL 2WD,N,0,,Standard Sport Utility Vehicle 2WD,2021,-4000,Yukon,Diesel,9.5,0.1,0
+462,22,0,3,2400,Diesel,Diesel,4,45583,Chevrolet,Suburban 4WD,N,0,,Standard Sport Utility Vehicle 4WD,2023,-4500,Suburban,Diesel,9.5,0.1,0
+384,26,0,3,2000,Diesel,Diesel,5,44397,Ram,1500 HFE 2WD,N,0,,Standard Pickup Trucks 2WD,2022,-2500,1500,Diesel,13,0.1,0
+462,22,0,3,2400,Diesel,Diesel,4,47422,Chevrolet,Tahoe 4WD,N,0,,Standard Sport Utility Vehicle 4WD,2024,-4500,Tahoe,Diesel,9.5,0.1,0
+462,22,0,3,2400,Diesel,Diesel,4,44603,GMC,Yukon XL 4WD,N,0,,Standard Sport Utility Vehicle 4WD,2022,-4500,Yukon,Diesel,9.5,0.1,0
+412,24,0,3,2200,Diesel,Diesel,4,41634,Land Rover,Range Rover,N,0,,Standard Sport Utility Vehicle 4WD,2020,-3500,Range Rover,Diesel,9.5,0.1,0
+462,22,0,3,2400,Diesel,Diesel,4,44601,Chevrolet,Tahoe 4WD,N,0,,Standard Sport Utility Vehicle 4WD,2022,-4500,Tahoe,Diesel,9.5,0.1,0
+427,24,0,3,2200,Diesel,Diesel,4,49061,Chevrolet,Tahoe 2WD,N,0,,Standard Sport Utility Vehicle 2WD,2025,-3500,Tahoe,Diesel,9.5,0.1,0
+425,24,0,3,2200,Diesel,Diesel,4,45796,Chevrolet,Silverado 4WD,N,0,,Standard Pickup Trucks 4WD,2023,-3500,Silverado,Diesel,13,0.1,0
+456,22,0,3,2400,Diesel,Diesel,4,48212,Chevrolet,Silverado Mud Terrain Tires 4WD,N,0,,Standard Pickup Trucks 4WD,2025,-4500,Silverado,Diesel,13,0.1,0
+444,22,0,3,2400,Diesel,Diesel,4,43600,GMC,Yukon 4WD,N,0,,Standard Sport Utility Vehicle 4WD,2021,-4500,Yukon,Diesel,9.5,0.1,0
+462,22,0,3,2400,Diesel,Diesel,4,45585,GMC,Yukon 4WD,N,0,,Standard Sport Utility Vehicle 4WD,2023,-4500,Yukon,Diesel,9.5,0.1,0
+418,24,0,3,2200,Diesel,Diesel,4,44399,Ram,1500 4WD,Y,0,,Standard Pickup Trucks 4WD,2022,-3500,1500,Diesel,13,0.1,0
+442,23,0,3,2300,Diesel,Diesel,4,44597,GMC,Yukon 2WD,N,0,,Standard Sport Utility Vehicle 2WD,2022,-4000,Yukon,Diesel,9.5,0.1,0
+460,22,0,3,2400,Diesel,Diesel,4,49914,GMC,Yukon 4WD,N,0,,Standard Sport Utility Vehicle 4WD,2026,-4500,Yukon,Diesel,9.5,0.1,0
+462,22,0,3,2400,Diesel,Diesel,4,47416,Cadillac,Escalade 4WD,Y,0,,Standard Sport Utility Vehicle 4WD,2024,-4500,Escalade,Diesel,9.5,0.1,0
+442,23,0,3,2300,Diesel,Diesel,4,49884,GMC,Yukon 2WD,N,0,,Standard Sport Utility Vehicle 2WD,2026,-4000,Yukon,Diesel,9.5,0.1,0
+418,24,0,3,2200,Diesel,Diesel,4,43015,Ram,1500 4WD,Y,0,,Standard Pickup Trucks 4WD,2021,-3500,1500,Diesel,13,0.1,0
+448,23,0,3,2300,Diesel,Diesel,4,41783,Land Rover,Discovery,N,0,,Standard Sport Utility Vehicle 4WD,2020,-4000,Discovery,Diesel,9.5,0.1,0
+460,22,0,3,2400,Diesel,Diesel,4,49904,Chevrolet,Suburban 4WD,N,0,,Standard Sport Utility Vehicle 4WD,2026,-4500,Suburban,Diesel,9.5,0.1,0
+390,26,0,3,2000,Diesel,Diesel,5,43007,Ram,1500 2WD,N,0,,Standard Pickup Trucks 2WD,2021,-2500,1500,Diesel,13,0.1,0
+442,23,0,3,2300,Diesel,Diesel,4,49883,GMC,Yukon XL 2WD,N,0,,Standard Sport Utility Vehicle 2WD,2026,-4000,Yukon,Diesel,9.5,0.1,0
+462,22,0,3,2400,Diesel,Diesel,4,47433,GMC,Yukon 4WD,N,0,,Standard Sport Utility Vehicle 4WD,2024,-4500,Yukon,Diesel,9.5,0.1,0
+443,23,0,3,2300,Diesel,Diesel,4,45195,Chevrolet,Silverado 4WD,N,0,,Standard Pickup Trucks 4WD,2022,-4000,Silverado,Diesel,13,0.1,0
+402,25,0,3,2100,Diesel,Diesel,4,49367,GMC,Sierra 2WD,N,0,,Standard Pickup Trucks 2WD,2026,-3000,Sierra,Diesel,13,0.1,0
+436,24,0,3,2200,Diesel,Diesel,4,45816,Jeep,Gladiator Rubic EcoDiesel 4WD,N,0,,Standard Pickup Trucks 4WD,2023,-3500,Gladiator,Diesel,13,0.1,0
+428,24,0,3,2200,Diesel,Diesel,4,49415,GMC,Sierra 4WD,N,0,,Standard Pickup Trucks 4WD,2026,-3500,Sierra,Diesel,13,0.1,0
+450,23,0,3,2300,Diesel,Diesel,4,48230,GMC,Sierra Mud Terrain Tires 4WD,N,0,,Standard Pickup Trucks 4WD,2025,-4000,Sierra,Diesel,13,0.1,0
+442,23,0,3,2300,Diesel,Diesel,4,48944,GMC,Yukon XL 2WD,N,0,,Standard Sport Utility Vehicle 2WD,2025,-4000,Yukon,Diesel,9.5,0.1,0
+462,22,0,3,2400,Diesel,Diesel,4,45584,GMC,Yukon XL 4WD,N,0,,Standard Sport Utility Vehicle 4WD,2023,-4500,Yukon,Diesel,9.5,0.1,0
+423,24,0,3,2200,Diesel,Diesel,4,45798,Chevrolet,Silverado 4WD,N,0,,Standard Pickup Trucks 4WD,2023,-3500,Silverado,Diesel,13,0.1,0
+428,24,0,3,2200,Diesel,Diesel,4,49393,Chevrolet,Silverado 4WD w/Sport and Off Road Mode,N,0,,Standard Pickup Trucks 4WD,2026,-3500,Silverado,Diesel,13,0.1,0
+435,23,0,2.8,2300,Diesel,Diesel,4,44385,GMC,Canyon 2WD,N,0,,Small Pickup Trucks 2WD,2022,-4000,Canyon,Diesel,11,0.1,0
+455,22,0,2.8,2400,Diesel,Diesel,4,42749,Chevrolet,Colorado 4WD,N,0,,Small Pickup Trucks 4WD,2021,-4500,Colorado,Diesel,11,0.1,0
+524,19,0,3,2750,Diesel,Diesel,3,48231,GMC,Sierra 4WD AT4X,N,0,,Standard Pickup Trucks 4WD,2025,-6250,Sierra,Diesel,13,0.1,0
+396,26,0,3,2000,Diesel,Diesel,5,45772,Chevrolet,Silverado 2WD,N,0,,Standard Pickup Trucks 2WD,2023,-2500,Silverado,Diesel,13,0.1,0
+411,25,0,3,2100,Diesel,Diesel,5,44905,Jeep,Wrangler 4dr EcoDiesel 4WD,N,0,,Small Sport Utility Vehicle 4WD,2022,-3000,Wrangler,Diesel,7.5,0.1,0
+442,23,0,3,2300,Diesel,Diesel,4,45568,GMC,Yukon XL 2WD,N,0,,Standard Sport Utility Vehicle 2WD,2023,-4000,Yukon,Diesel,9.5,0.1,0
+442,23,0,3,2300,Diesel,Diesel,4,42966,Jeep,Wrangler Rubic 4dr EcoDiesel 4WD,Y,0,,Small Sport Utility Vehicle 4WD,2021,-4000,Wrangler,Diesel,7.5,0.1,0
+420,24,0,3,2200,Diesel,Diesel,4,42517,Ford,F150 Pickup 2WD,N,0,,Standard Pickup Trucks 2WD,2020,-3500,F150,Diesel,13,0.1,0
+455,22,0,3,2400,Diesel,Diesel,4,48954,Chevrolet,Suburban 4WD,N,0,,Standard Sport Utility Vehicle 4WD,2025,-4500,Suburban,Diesel,9.5,0.1,0
+416,24,0,3,2200,Diesel,Diesel,4,46835,Chevrolet,Silverado 4WD,Y,0,,Standard Pickup Trucks 4WD,2024,-3500,Silverado,Diesel,13,0.1,0
+427,24,0,3,2200,Diesel,Diesel,4,41855,GMC,Sierra 4WD,Y,0,,Standard Pickup Trucks 4WD,2020,-3500,Sierra,Diesel,13,0.1,0
+442,23,0,3,2300,Diesel,Diesel,4,44906,Jeep,Wrangler Rubic 4dr EcoDiesel 4WD,N,0,,Small Sport Utility Vehicle 4WD,2022,-4000,Wrangler,Diesel,7.5,0.1,0
+435,23,0,2.8,2300,Diesel,Diesel,4,42811,Chevrolet,Colorado 2WD,N,0,,Small Pickup Trucks 2WD,2021,-4000,Colorado,Diesel,11,0.1,0
+412,24,0,3,2200,Diesel,Diesel,4,42691,Land Rover,Range Rover,N,0,,Standard Sport Utility Vehicle 4WD,2021,-3500,Range Rover,Diesel,9.5,0.1,0
+466,22,0,3,2400,Diesel,Diesel,3,42520,Ford,F150 Pickup 4WD,N,0,,Standard Pickup Trucks 4WD,2020,-4500,F150,Diesel,13,0.1,0
+397,26,0,3,2000,Diesel,Diesel,5,46815,Chevrolet,Silverado 2WD,N,0,,Standard Pickup Trucks 2WD,2024,-2500,Silverado,Diesel,13,0.1,0
+425,24,0,3,2200,Diesel,Diesel,4,47400,Chevrolet,Tahoe 2WD,N,0,,Standard Sport Utility Vehicle 2WD,2024,-3500,Tahoe,Diesel,9.5,0.1,0
+462,22,0,3,2400,Diesel,Diesel,4,44604,GMC,Yukon 4WD,N,0,,Standard Sport Utility Vehicle 4WD,2022,-4500,Yukon,Diesel,9.5,0.1,0
+430,24,0,3,2200,Diesel,Diesel,4,42519,Ford,F150 Pickup 4WD XL/XLT,Y,0,,Standard Pickup Trucks 4WD,2020,-3500,F150,Diesel,13,0.1,0
+405,25,0,3,2100,Diesel,Diesel,4,41842,Chevrolet,Silverado 4WD,N,0,,Standard Pickup Trucks 4WD,2020,-3000,Silverado,Diesel,13,0.1,0
+367,24,0,2,2350,Premium,Premium Gasoline,5,41505,Chevrolet,Equinox AWD,Y,0,,Small Sport Utility Vehicle 4WD,2020,-4250,Equinox,,7.5,0.1,0
+453,20,0,3.3,2800,Premium,Premium Gasoline,4,41460,Genesis,G80 AWD,N,0,,Large Cars,2020,-6500,G80,,9.5,0.1,0
+471,19,0,3,2950,Premium,Premium Gasoline,3,41357,BMW,M4 Coupe Competition,N,0,,Compact Cars,2020,-7250,M,,6,0.1,0
+363,25,0,2.4,1700,Regular,Regular Gasoline,5,41440,Hyundai,Tucson FWD,N,0,,Small Sport Utility Vehicle 2WD,2020,-1000,Tucson,,7.5,0.1,0
+300,30,0,2,1400,Regular,Regular Gasoline,7,41421,Hyundai,Kona FWD,N,0,,Small Sport Utility Vehicle 2WD,2020,500,Kona,,7.5,0.1,0
+446,20,0,3.3,2800,Premium,Premium Gasoline,4,41600,Kia,Stinger RWD,N,0,,Midsize Cars,2020,-6500,Stinger,,7.5,0.1,0
+372,24,0,2,2350,Premium,Premium Gasoline,5,41543,Subaru,BRZ,N,0,,Minicompact Cars,2020,-4250,BRZ,,6,0.1,0
+344,26,0,2,2150,Premium,Premium Gasoline,5,41425,Chevrolet,Malibu,N,0,,Midsize Cars,2020,-3250,Malibu,,7.5,0.1,0
+374,24,0,2,2350,Premium,Premium Gasoline,5,41483,Lexus,NX 300 AWD F Sport,N,0,,Small Sport Utility Vehicle 4WD,2020,-4250,NX,,7.5,0.1,0
+287,31,0,2,1350,Regular,Regular Gasoline,7,41221,Kia,Soul Eco dynamics,Y,0,,Small Station Wagons,2020,750,Soul,,6,0.1,0
+517,17,0,6.2,3300,Premium,Premium Gasoline,3,41581,GMC,Yukon C1500 2WD,N,0,,Standard Sport Utility Vehicle 2WD,2020,-9000,Yukon,,9.5,0.1,0
+570,16,0,6.6,3500,Premium,Premium Gasoline,2,41361,BMW,M760i xDrive,N,0,,Large Cars,2020,-10000,M,,9.5,0.1,0
+488,18,0,4,3150,Premium,Premium Gasoline,3,41517,Mercedes-Benz,AMG GT Roadster,N,0,,Two Seaters,2020,-8250,AMG GT,,7.5,0.1,0
+442,20,0,3.3,2800,Premium,Premium Gasoline,4,41461,Genesis,G80 RWD,N,0,,Large Cars,2020,-6500,G80,,9.5,0.1,0
+312,28,0,2,2000,Premium,Premium Gasoline,6,41238,Jaguar,XE,N,0,,Compact Cars,2020,-2500,XE,,6,0.1,0
+371,24,0,2,1750,Regular,Regular Gasoline,5,41465,Kia,Optima,N,0,,Large Cars,2020,-1250,Optima,,9.5,0.1,0
+322,28,0,1.6,1500,Regular,Regular Gasoline,6,41560,Hyundai,Elantra GT,N,0,,Large Cars,2020,0,Elantra,,9.5,0.1,0
+387,23,0,2,2450,Premium,Premium Gasoline,5,41528,Volvo,XC90 AWD,N,0,,Standard Sport Utility Vehicle 4WD,2020,-4750,XC90,,9.5,0.1,0
+420,21,0,3.6,2000,Regular,Regular Gasoline,4,41524,Chevrolet,Traverse FWD,N,0,,Standard Sport Utility Vehicle 2WD,2020,-2500,Traverse,,9.5,0.1,0
+481,19,0,3,2950,Premium,Premium Gasoline,3,41332,BMW,M4 Convertible Competition,N,0,,Subcompact Cars,2020,-7250,M,,6,0.1,0
+361,24,0,2,2350,Premium,Premium Gasoline,5,41344,BMW,430i xDrive Coupe,N,0,,Compact Cars,2020,-4250,4 Series,,6,0.1,0
+384,23,0,2,2450,Premium,Premium Gasoline,5,41251,Land Rover,Range Rover Velar,Y,0,,Small Sport Utility Vehicle 4WD,2020,-4750,Range Rover,,7.5,0.1,0
+422,21,0,2,2700,Premium,Premium Gasoline,4,41555,Subaru,WRX,N,0,,Compact Cars,2020,-6000,WRX,,6,0.1,0
+303,30,0,2,1400,Regular,Regular Gasoline,7,41220,Kia,Soul,N,0,,Small Station Wagons,2020,500,Soul,,6,0.1,0
+503,18,0,5,3150,Premium,Premium Gasoline,3,41462,Genesis,G80 AWD,N,0,,Large Cars,2020,-8250,G80,,9.5,0.1,0
+326,28,0,1.6,1500,Regular,Regular Gasoline,6,41456,Kia,Forte,N,0,,Midsize Cars,2020,0,Forte,,7.5,0.1,0
+370,24,0,2,2350,Premium,Premium Gasoline,5,41246,Jaguar,XF Sportbrake AWD,N,0,,Midsize Station Wagons,2020,-4250,XF,,9.5,0.1,0
+378,23,0,2,2450,Premium,Premium Gasoline,5,41548,Chevrolet,Camaro,N,0,,Subcompact Cars,2020,-4750,Camaro,,6,0.1,0
+426,21,0,3.8,2000,Regular,Regular Gasoline,4,41232,Kia,Telluride AWD,N,0,,Small Sport Utility Vehicle 4WD,2020,-2500,Telluride,,7.5,0.1,0
+329,27,0,1.4,1550,Regular,Regular Gasoline,6,41518,Buick,Encore FWD,N,0,,Small Sport Utility Vehicle 2WD,2020,-250,Encore,,7.5,0.1,0
+500,18,0,5,3150,Premium,Premium Gasoline,3,41613,Genesis,G90 AWD,N,0,,Large Cars,2020,-8250,G90,,9.5,0.1,0
+353,25,0,2,2250,Premium,Premium Gasoline,5,41549,Chevrolet,Camaro,N,0,,Subcompact Cars,2020,-3750,Camaro,,6,0.1,0
+356,25,0,3,2250,Premium,Premium Gasoline,5,41340,BMW,M340i xDrive,N,0,,Compact Cars,2020,-3750,M,,6,0.1,0
+312,28,0,2,2000,Premium,Premium Gasoline,6,41242,Jaguar,XF,N,0,,Midsize Cars,2020,-2500,XF,,7.5,0.1,0
+450,20,0,3,2800,Premium,Premium Gasoline,4,41331,BMW,M4 Convertible Competition,N,0,,Subcompact Cars,2020,-6500,M,,6,0.1,0
+440,20,0,3,2800,Premium,Premium Gasoline,4,41356,BMW,M4 Coupe Competition,N,0,,Compact Cars,2020,-6500,M,,6,0.1,0
+288,31,0,2.5,1350,Regular,Regular Gasoline,7,41533,Nissan,Altima SR/Platinum,N,0,,Midsize Cars,2020,750,Altima,,7.5,0.1,0
+451,20,0,3.6,2100,Regular,Regular Gasoline,4,41550,Chevrolet,Camaro,N,0,,Subcompact Cars,2020,-3000,Camaro,,6,0.1,0
+358,25,0,2,2250,Premium,Premium Gasoline,5,41477,Lexus,NX 300,N,0,,Small Sport Utility Vehicle 2WD,2020,-3750,NX,,7.5,0.1,0
+301,30,0,2,1400,Regular,Regular Gasoline,7,41436,Hyundai,Elantra,N,0,,Midsize Cars,2020,500,Elantra,,7.5,0.1,0
+336,26,0,2,2150,Premium,Premium Gasoline,5,41539,Cadillac,XT4 FWD,N,0,,Small Sport Utility Vehicle 2WD,2020,-3250,XT4,,7.5,0.1,0
+394,23,0,2,2450,Premium,Premium Gasoline,5,41288,Land Rover,Evoque,N,0,,Small Sport Utility Vehicle 4WD,2020,-4750,Evoque,,7.5,0.1,0
+399,22,0,2,2550,Premium,Premium Gasoline,4,41252,Land Rover,Range Rover Velar P300,N,0,,Small Sport Utility Vehicle 4WD,2020,-5250,Range Rover,,7.5,0.1,0
+343,26,0,2,2150,Premium,Premium Gasoline,5,41557,Buick,Regal,N,0,,Midsize Cars,2020,-3250,Regal,,7.5,0.1,0
+390,23,0,3,2450,Premium,Premium Gasoline,5,41284,Jaguar,XF AWD,N,0,,Midsize Cars,2020,-4750,XF,,7.5,0.1,0
+332,27,0,2,1550,Regular,Regular Gasoline,6,41222,Kia,Soul,N,0,,Small Station Wagons,2020,-250,Soul,,6,0.1,0
+440,20,0,3,2800,Premium,Premium Gasoline,4,41323,BMW,M2 Competition Coupe,N,0,,Subcompact Cars,2020,-6500,M,,6,0.1,0
+451,20,0,3,2100,Regular,Regular Gasoline,4,41488,Lincoln,Aviator AWD,N,0,,Standard Sport Utility Vehicle 4WD,2020,-3000,Aviator,,9.5,0.1,0
+476,19,0,3.6,2200,Regular,Regular Gasoline,3,41363,Jeep,Gladiator Pickup 4WD,N,0,,Standard Pickup Trucks 4WD,2020,-3500,Gladiator Pickup,,13,0.1,0
+410,22,0,2,2550,Premium,Premium Gasoline,4,41380,Genesis,G70 RWD,Y,0,,Compact Cars,2020,-5250,G70,,6,0.1,0
+327,27,0,2,2100,Premium,Premium Gasoline,6,41345,BMW,430i Gran Coupe,N,0,,Compact Cars,2020,-3000,4 Series,,6,0.1,0
+404,22,0,2,2550,Premium,Premium Gasoline,4,41233,Mercedes-Benz,GLE350 4matic,Y,0,,Small Sport Utility Vehicle 4WD,2020,-5250,GLE-Class,,7.5,0.1,0
+361,24,0,2,2350,Premium,Premium Gasoline,5,41311,BMW,230i xDrive Coupe,N,0,,Subcompact Cars,2020,-4250,2 Series,,6,0.1,0
+445,20,0,3.8,2100,Regular,Regular Gasoline,4,41426,Genesis,G80 AWD,Y,0,,Large Cars,2020,-3000,G80,,9.5,0.1,0
+370,24,0,2,2350,Premium,Premium Gasoline,5,41408,Acura,RDX FWD,N,0,,Small Sport Utility Vehicle 2WD,2020,-4250,RDX,,7.5,0.1,0
+527,17,0,6.2,3300,Premium,Premium Gasoline,3,41591,GMC,Yukon K1500 4WD,N,0,,Standard Sport Utility Vehicle 4WD,2020,-9000,Yukon,,9.5,0.1,0
+344,26,0,1.4,1600,Regular,Regular Gasoline,5,41521,Chevrolet,Trax AWD,N,0,,Small Sport Utility Vehicle 4WD,2020,-500,Trax,,7.5,0.1,0
+326,27,0,2.4,1550,Regular,Regular Gasoline,6,41478,Mitsubishi,Outlander 2WD,N,0,,Small Sport Utility Vehicle 2WD,2020,-250,Outlander,,7.5,0.1,0
+327,27,0,1.5,1550,Regular,Regular Gasoline,6,41566,Mitsubishi,Eclipse Cross ES 2WD,N,0,,Small Sport Utility Vehicle 2WD,2020,-250,Eclipse Cross,,7.5,0.1,0
+386,23,0,2,2450,Premium,Premium Gasoline,5,41508,Volvo,XC60 AWD,Y,0,,Small Sport Utility Vehicle 4WD,2020,-4750,XC60,,7.5,0.1,0
+353,25,0,3,2250,Premium,Premium Gasoline,5,41351,BMW,440i Gran Coupe,N,0,,Compact Cars,2020,-3750,4 Series,,6,0.1,0
+471,19,0,3,2950,Premium,Premium Gasoline,3,41355,BMW,M4 CS,N,0,,Compact Cars,2020,-7250,M,,6,0.1,0
+269,33,0,2,1300,Regular,Regular Gasoline,7,41458,Kia,Forte,N,0,,Midsize Cars,2020,1000,Forte,,7.5,0.1,0
+327,27,0,2,2100,Premium,Premium Gasoline,6,41325,BMW,430i Convertible,N,0,,Subcompact Cars,2020,-3000,4 Series,,6,0.1,0
+411,22,0,2,1900,Regular,Regular Gasoline,4,41479,Hyundai,Santa Fe AWD,Y,0,,Small Sport Utility Vehicle 4WD,2020,-2000,Santa Fe,,7.5,0.1,0
+359,25,0,2.5,1700,Regular,Regular Gasoline,5,41438,Buick,Envision FWD,N,0,,Small Sport Utility Vehicle 2WD,2020,-1000,Envision,,7.5,0.1,0
+424,21,0,3,2000,Regular,Regular Gasoline,4,41486,Lincoln,Aviator RWD,N,0,,Standard Sport Utility Vehicle 2WD,2020,-2500,Aviator,,9.5,0.1,0
+357,25,0,2,2250,Premium,Premium Gasoline,5,41493,Volvo,S90 AWD,N,0,,Midsize Cars,2020,-3750,S90,,7.5,0.1,0
+441,20,0,3.5,2100,Regular,Regular Gasoline,4,41387,Toyota,Sienna AWD,N,0,,Minivan - 4WD,2020,-3000,Sienna,,9.5,0.1,0
+370,24,0,2.3,1750,Regular,Regular Gasoline,5,41485,Ford,Explorer RWD,Y,0,,Standard Sport Utility Vehicle 2WD,2020,-1250,Explorer,,9.5,0.1,0
+442,20,0,3.6,2100,Regular,Regular Gasoline,4,41526,Chevrolet,Traverse AWD,N,0,,Standard Sport Utility Vehicle 4WD,2020,-3000,Traverse,,9.5,0.1,0
+385,23,0,2,1850,Regular,Regular Gasoline,5,41443,Hyundai,Tucson AWD,Y,0,,Small Sport Utility Vehicle 4WD,2020,-1750,Tucson,,7.5,0.1,0
+385,23,0,2,2450,Premium,Premium Gasoline,5,41411,Acura,RDX AWD A-SPEC,N,0,,Small Sport Utility Vehicle 4WD,2020,-4750,RDX,,7.5,0.1,0
+449,20,0,3.3,2800,Premium,Premium Gasoline,4,41599,Kia,Stinger AWD,N,0,,Midsize Cars,2020,-6500,Stinger,,7.5,0.1,0
+170,52,0,1.8,800,Regular,Regular Gasoline,10,41214,Toyota,Corolla Hybrid,Y,0,,Compact Cars,2020,3500,Corolla,Hybrid,6,0.1,0
+485,19,0,5,2950,Premium,Premium Gasoline,3,41614,Genesis,G90 RWD,N,0,,Large Cars,2020,-7250,G90,,9.5,0.1,0
+373,24,0,2,2350,Premium,Premium Gasoline,5,41250,Jaguar,F-Pace 30t,N,0,,Small Sport Utility Vehicle 4WD,2020,-4250,F-Pace,,7.5,0.1,0
+338,26,0,1.5,1600,Regular,Regular Gasoline,5,41565,Mitsubishi,Eclipse Cross 2WD,N,0,,Small Sport Utility Vehicle 2WD,2020,-500,Eclipse Cross,,7.5,0.1,0
+482,18,0,3.8,3150,Premium,Premium Gasoline,3,41610,Nissan,GT-R,N,0,,Subcompact Cars,2020,-8250,GT-R,,6,0.1,0
+435,20,0,4,2800,Premium,Premium Gasoline,4,41394,Aston Martin,Vantage V8,N,0,,Two Seaters,2020,-6500,Vantage,,7.5,0.1,0
+374,24,0,2,2350,Premium,Premium Gasoline,5,41409,Acura,RDX FWD A-SPEC,N,0,,Small Sport Utility Vehicle 2WD,2020,-4250,RDX,,7.5,0.1,0
+395,23,0,3.8,1850,Regular,Regular Gasoline,5,41229,Kia,Telluride FWD,N,0,,Small Sport Utility Vehicle 2WD,2020,-1750,Telluride,,7.5,0.1,0
+420,21,0,3.6,2000,Regular,Regular Gasoline,4,41523,Buick,Enclave FWD,N,0,,Standard Sport Utility Vehicle 2WD,2020,-2500,Enclave,,9.5,0.1,0
+278,32,0,1.4,1300,Regular,Regular Gasoline,7,41451,Chevrolet,Spark ACTIV,N,0,,Subcompact Cars,2020,1000,Spark,,6,0.1,0
+446,20,0,3.6,2100,Regular,Regular Gasoline,4,41429,Cadillac,XT6 AWD,N,0,,Small Sport Utility Vehicle 4WD,2020,-3000,XT6,,7.5,0.1,0
+596,15,0,5.2,3750,Premium,Premium Gasoline,2,41397,Lamborghini,Huracan Spyder,N,0,,Two Seaters,2020,-11250,Huracan,,7.5,0.1,0
+299,30,0,2,1900,Premium,Premium Gasoline,7,41339,BMW,330i,N,0,,Compact Cars,2020,-2000,3 Series,,6,0.1,0
+298,32,0,1.5,1300,Regular,Regular Gasoline,7,41492,Chevrolet,Malibu,N,0,,Midsize Cars,2020,1000,Malibu,,7.5,0.1,0
+290,31,0,2,1350,Regular,Regular Gasoline,7,41459,Kia,Forte,N,0,,Midsize Cars,2020,750,Forte,,7.5,0.1,0
+324,27,0,1.5,1550,Regular,Regular Gasoline,6,41504,Chevrolet,Equinox AWD,Y,0,,Small Sport Utility Vehicle 4WD,2020,-250,Equinox,,7.5,0.1,0
+386,23,0,2.3,1850,Regular,Regular Gasoline,5,41487,Ford,Explorer AWD,N,0,,Standard Sport Utility Vehicle 4WD,2020,-1750,Explorer,,9.5,0.1,0
+316,28,0,1.4,1500,Regular,Regular Gasoline,6,41519,Chevrolet,Trax FWD,N,0,,Small Sport Utility Vehicle 2WD,2020,0,Trax,,7.5,0.1,0
+408,22,0,3,2550,Premium,Premium Gasoline,4,41321,BMW,M240i Convertible,N,0,,Subcompact Cars,2020,-5250,M,,6,0.1,0
+443,20,0,3.6,2100,Regular,Regular Gasoline,4,41525,Buick,Enclave AWD,N,0,,Standard Sport Utility Vehicle 4WD,2020,-3000,Enclave,,9.5,0.1,0
+473,19,0,5,2950,Premium,Premium Gasoline,3,41551,Lexus,LC 500,N,0,,Subcompact Cars,2020,-7250,LC,,6,0.1,0
+361,24,0,3,2350,Premium,Premium Gasoline,5,41358,BMW,740i,Y,0,,Large Cars,2020,-4250,7 Series,,9.5,0.1,0
+336,26,0,2.4,2150,Premium,Premium Gasoline,5,41334,Acura,TLX FWD A-SPEC,N,0,,Compact Cars,2020,-3250,TLX,,6,0.1,0
+517,17,0,6.2,3300,Premium,Premium Gasoline,3,41582,GMC,Yukon C1500 XL 2WD,N,0,,Standard Sport Utility Vehicle 2WD,2020,-9000,Yukon,,9.5,0.1,0
+471,19,0,3,2950,Premium,Premium Gasoline,3,41354,BMW,M4 Coupe,N,0,,Compact Cars,2020,-7250,M,,6,0.1,0
+374,24,0,3.5,2350,Premium,Premium Gasoline,5,41335,Acura,TLX FWD,N,0,,Compact Cars,2020,-4250,TLX,,6,0.1,0
+439,20,0,3,2800,Premium,Premium Gasoline,4,41445,Land Rover,Range Rover Velar P380,N,0,,Small Sport Utility Vehicle 4WD,2020,-6500,Range Rover,,7.5,0.1,0
+527,17,0,6.2,3300,Premium,Premium Gasoline,3,41587,Chevrolet,Tahoe K1500 4WD,N,0,,Standard Sport Utility Vehicle 4WD,2020,-9000,Tahoe,,9.5,0.1,0
+426,21,0,3,2700,Premium,Premium Gasoline,4,41282,Jaguar,F-Type S AWD Coupe,N,0,,Two Seaters,2020,-6000,F-Type,,7.5,0.1,0
+450,20,0,3,2800,Premium,Premium Gasoline,4,41329,BMW,M4 Convertible,N,0,,Subcompact Cars,2020,-6500,M,,6,0.1,0
+459,19,0,5,2950,Premium,Premium Gasoline,3,41453,Lexus,RC F,N,0,,Subcompact Cars,2020,-7250,RC,,6,0.1,0
+333,27,0,2,2100,Premium,Premium Gasoline,6,41244,Jaguar,XF AWD,N,0,,Midsize Cars,2020,-3000,XF,,7.5,0.1,0
+399,22,0,3.5,2550,Premium,Premium Gasoline,4,41540,Infiniti,QX60 FWD,N,0,,Small Sport Utility Vehicle 2WD,2020,-5250,QX60,,7.5,0.1,0
+431,20,0,4,2800,Premium,Premium Gasoline,4,41401,Aston Martin,DB11 V8,N,0,,Minicompact Cars,2020,-6500,DB11,,6,0.1,0
+394,23,0,3,2450,Premium,Premium Gasoline,5,41328,BMW,440i xDrive Convertible,N,0,,Subcompact Cars,2020,-4750,4 Series,,6,0.1,0
+385,23,0,2,2450,Premium,Premium Gasoline,5,41410,Acura,RDX AWD,Y,0,,Small Sport Utility Vehicle 4WD,2020,-4750,RDX,,7.5,0.1,0
+571,16,0,6.2,3500,Premium,Premium Gasoline,2,41546,Chevrolet,Camaro,N,0,,Subcompact Cars,2020,-10000,Camaro,,6,0.1,0
+365,24,0,2,2350,Premium,Premium Gasoline,5,41558,Buick,Regal AWD,N,0,,Midsize Cars,2020,-4250,Regal,,7.5,0.1,0
+466,19,0,3.6,2200,Regular,Regular Gasoline,3,41362,Jeep,Gladiator Pickup 4WD,Y,0,,Standard Pickup Trucks 4WD,2020,-3500,Gladiator Pickup,,13,0.1,0
+356,25,0,3,2250,Premium,Premium Gasoline,5,41316,BMW,M240i xDrive Coupe M Performance,N,0,,Subcompact Cars,2020,-3750,M,,6,0.1,0
+353,25,0,3,2250,Premium,Premium Gasoline,5,41320,BMW,M240i Convertible,N,0,,Subcompact Cars,2020,-3750,M,,6,0.1,0
+273,33,0,1.6,1300,Regular,Regular Gasoline,7,41405,Hyundai,Accent,N,0,,Compact Cars,2020,1000,Accent,,6,0.1,0
+449,20,0,4.4,2800,Premium,Premium Gasoline,4,41360,BMW,750i xDrive,N,0,,Large Cars,2020,-6500,7 Series,,9.5,0.1,0
+384,23,0,3.5,2450,Premium,Premium Gasoline,5,41337,Acura,TLX AWD,N,0,,Compact Cars,2020,-4750,TLX,,6,0.1,0
+481,19,0,3,2950,Premium,Premium Gasoline,3,41330,BMW,M4 Convertible,N,0,,Subcompact Cars,2020,-7250,M,,6,0.1,0
+392,23,0,2,1850,Regular,Regular Gasoline,5,41228,Kia,Sportage FWD,N,0,,Small Sport Utility Vehicle 2WD,2020,-1750,Sportage,,7.5,0.1,0
+356,25,0,3,2250,Premium,Premium Gasoline,5,41322,BMW,M240i xDrive Convertible,N,0,,Subcompact Cars,2020,-3750,M,,6,0.1,0
+353,25,0,2,1700,Regular,Regular Gasoline,5,41468,Ford,Transit Connect Van 2WD,N,0,,Special Purpose Vehicle 2WD,2020,-1000,Transit Connect,,8,0.1,0
+324,28,0,2,1500,Regular,Regular Gasoline,6,41422,Hyundai,Kona AWD,N,0,,Small Sport Utility Vehicle 4WD,2020,0,Kona,,7.5,0.1,0
+341,26,0,2.4,1600,Regular,Regular Gasoline,5,41484,Mitsubishi,Outlander 4WD,N,0,,Small Sport Utility Vehicle 4WD,2020,-500,Outlander,,7.5,0.1,0
+386,23,0,2.4,1850,Regular,Regular Gasoline,5,41430,Subaru,Ascent,N,0,,Standard Sport Utility Vehicle 4WD,2020,-1750,Ascent,,9.5,0.1,0
+365,24,0,2,2350,Premium,Premium Gasoline,5,41564,Buick,Regal TourX AWD,N,0,,Small Station Wagons,2020,-4250,Regal,,6,0.1,0
+357,25,0,2,2250,Premium,Premium Gasoline,5,41497,Volvo,V90 AWD,N,0,,Midsize Station Wagons,2020,-3750,V90,,9.5,0.1,0
+357,25,0,2,2250,Premium,Premium Gasoline,5,41379,Genesis,G70 RWD,Y,0,,Compact Cars,2020,-3750,G70,,6,0.1,0
+303,30,0,1.6,1400,Regular,Regular Gasoline,7,41420,Hyundai,Kona FWD,N,0,,Small Sport Utility Vehicle 2WD,2020,500,Kona,,7.5,0.1,0
+556,16,0,5.2,3500,Premium,Premium Gasoline,2,41595,Audi,R8 Spyder AWD,N,0,,Two Seaters,2020,-10000,R8,,7.5,0.1,0
+266,33,0,1.8,1300,Regular,Regular Gasoline,7,41218,Toyota,Corolla,N,0,,Compact Cars,2020,1000,Corolla,,6,0.1,0
+394,23,0,3,2450,Premium,Premium Gasoline,5,41359,BMW,740i xDrive,N,0,,Large Cars,2020,-4750,7 Series,,9.5,0.1,0
+295,30,0,2.5,1400,Regular,Regular Gasoline,7,41562,Subaru,Legacy AWD,Y,0,,Large Cars,2020,500,Legacy,,9.5,0.1,0
+292,31,0,1.6,1350,Regular,Regular Gasoline,7,41464,Kia,Optima,N,0,,Large Cars,2020,750,Optima,,9.5,0.1,0
+386,23,0,2.4,1850,Regular,Regular Gasoline,5,41230,Kia,Sportage AWD,Y,0,,Small Sport Utility Vehicle 4WD,2020,-1750,Sportage,,7.5,0.1,0
+402,22,0,2,2550,Premium,Premium Gasoline,4,41442,Buick,Envision AWD,N,0,,Small Sport Utility Vehicle 4WD,2020,-5250,Envision,,7.5,0.1,0
+387,23,0,3.5,2450,Premium,Premium Gasoline,5,41338,Acura,TLX AWD A-SPEC,N,0,,Compact Cars,2020,-4750,TLX,,6,0.1,0
+346,26,0,2,2150,Premium,Premium Gasoline,5,41236,Jaguar,F-Type Coupe,N,0,,Two Seaters,2020,-3250,F-Type,,7.5,0.1,0
+525,17,0,5.3,2500,Regular,Regular Gasoline,3,41584,Chevrolet,Tahoe K1500 4WD,N,0,,Standard Sport Utility Vehicle 4WD,2020,-5000,Tahoe,,9.5,0.1,0
+517,17,0,6.2,3300,Premium,Premium Gasoline,3,41576,Chevrolet,Tahoe C1500 2WD,N,0,,Standard Sport Utility Vehicle 2WD,2020,-9000,Tahoe,,9.5,0.1,0
+356,25,0,3,2250,Premium,Premium Gasoline,5,41349,BMW,440i xDrive Coupe,N,0,,Compact Cars,2020,-3750,4 Series,,6,0.1,0
+384,23,0,2,2450,Premium,Premium Gasoline,5,41545,Subaru,BRZ tS,N,0,,Minicompact Cars,2020,-4750,BRZ,,6,0.1,0
+343,26,0,2.4,1600,Regular,Regular Gasoline,5,41570,Subaru,Outback AWD,Y,0,,Small Sport Utility Vehicle 4WD,2020,-500,Outback,,7.5,0.1,0
+265,34,0,2,1250,Regular,Regular Gasoline,8,41216,Toyota,Corolla XSE,N,0,,Compact Cars,2020,1250,Corolla,,6,0.1,0
+361,25,0,2,2250,Premium,Premium Gasoline,5,41510,Volvo,XC90 FWD,N,0,,Standard Sport Utility Vehicle 2WD,2020,-3750,XC90,,9.5,0.1,0
+339,26,0,2,2150,Premium,Premium Gasoline,5,41496,Volvo,V90 FWD,N,0,,Midsize Station Wagons,2020,-3250,V90,,9.5,0.1,0
+298,30,0,3.5,1900,Premium,Premium Gasoline,7,41552,Lexus,LC 500h,N,0,,Subcompact Cars,2020,-2000,LC,Hybrid,6,0.1,0
+445,20,0,3.7,2800,Premium,Premium Gasoline,4,41376,Nissan,370Z,N,0,,Two Seaters,2020,-6500,370Z,,7.5,0.1,0
+488,18,0,5,3150,Premium,Premium Gasoline,3,41287,Jaguar,F-Pace,N,0,,Small Sport Utility Vehicle 4WD,2020,-8250,F-Pace,,7.5,0.1,0
+397,22,0,2.5,1900,Regular,Regular Gasoline,4,41472,Ford,Transit Connect Van 2WD,N,0,,Special Purpose Vehicle 2WD,2020,-2000,Transit Connect,,8,0.1,0
+256,35,0,2,1200,Regular,Regular Gasoline,8,41457,Kia,Forte FE,N,0,,Midsize Cars,2020,1500,Forte,,7.5,0.1,0
+481,18,0,5,3150,Premium,Premium Gasoline,3,41447,Jaguar,F-Type AWD Coupe,N,0,,Two Seaters,2020,-8250,F-Type,,7.5,0.1,0
+248,36,0,1.6,1150,Regular,Regular Gasoline,8,41404,Hyundai,Accent,Y,0,,Compact Cars,2020,1750,Accent,,6,0.1,0
+322,27,0,2,2100,Premium,Premium Gasoline,6,41544,Subaru,BRZ,N,0,,Minicompact Cars,2020,-3000,BRZ,,6,0.1,0
+471,19,0,3,2950,Premium,Premium Gasoline,3,41324,BMW,M2 Competition Coupe,N,0,,Subcompact Cars,2020,-7250,M,,6,0.1,0
+267,33,0,1.8,1300,Regular,Regular Gasoline,7,41217,Toyota,Corolla,N,0,,Compact Cars,2020,1000,Corolla,,6,0.1,0
+382,23,0,2,2450,Premium,Premium Gasoline,5,41554,Subaru,WRX,N,0,,Compact Cars,2020,-4750,WRX,,6,0.1,0
+407,22,0,3,2550,Premium,Premium Gasoline,4,41280,Jaguar,F-Type S Coupe,N,0,,Two Seaters,2020,-5250,F-Type,,7.5,0.1,0
+366,24,0,2,2350,Premium,Premium Gasoline,5,41541,Cadillac,XT4 AWD,N,0,,Small Sport Utility Vehicle 4WD,2020,-4250,XT4,,7.5,0.1,0
+437,20,0,3.6,2100,Regular,Regular Gasoline,4,41428,Cadillac,XT6 FWD,N,0,,Small Sport Utility Vehicle 2WD,2020,-3000,XT6,,7.5,0.1,0
+365,25,0,2,2250,Premium,Premium Gasoline,5,41598,Kia,Stinger RWD,N,0,,Midsize Cars,2020,-3750,Stinger,,7.5,0.1,0
+308,29,0,1.4,1450,Regular,Regular Gasoline,6,41538,Chevrolet,Sonic 5,N,0,,Small Station Wagons,2020,250,Sonic,,6,0.1,0
+439,20,0,3,2800,Premium,Premium Gasoline,4,41446,Land Rover,Range Rover Velar,N,0,,Small Sport Utility Vehicle 4WD,2020,-6500,Range Rover,,7.5,0.1,0
+269,33,0,1.4,1300,Regular,Regular Gasoline,7,41452,Chevrolet,Spark ACTIV,N,0,,Subcompact Cars,2020,1000,Spark,,6,0.1,0
+274,32,0,1.8,1300,Regular,Regular Gasoline,7,41219,Toyota,Corolla XLE,N,0,,Compact Cars,2020,1000,Corolla,,6,0.1,0
+356,25,0,3,2250,Premium,Premium Gasoline,5,41319,BMW,M240i xDrive Coupe,N,0,,Subcompact Cars,2020,-3750,M,,6,0.1,0
+422,21,0,3,2700,Premium,Premium Gasoline,4,41234,Mercedes-Benz,GLE450 4matic,Y,0,,Standard Sport Utility Vehicle 4WD,2020,-6000,GLE-Class,Hybrid,9.5,0.1,0
+406,22,0,3.8,1900,Regular,Regular Gasoline,4,41388,Hyundai,Palisade FWD,N,0,,Standard Sport Utility Vehicle 2WD,2020,-2000,Palisade,,9.5,0.1,0
+406,22,0,3.7,2550,Premium,Premium Gasoline,4,41375,Nissan,370Z,N,0,,Two Seaters,2020,-5250,370Z,,7.5,0.1,0
+446,20,0,3,2100,Regular,Regular Gasoline,4,41511,Ford,Explorer AWD,N,0,,Standard Sport Utility Vehicle 4WD,2020,-3000,Explorer,,9.5,0.1,0
+401,22,0,2.4,1900,Regular,Regular Gasoline,4,41431,Subaru,Ascent Limited/Touring,Y,0,,Standard Sport Utility Vehicle 4WD,2020,-2000,Ascent,,9.5,0.1,0
+363,25,0,2,2250,Premium,Premium Gasoline,5,41385,Hyundai,Veloster N,N,0,,Compact Cars,2020,-3750,Veloster,,6,0.1,0
+311,29,0,2.4,1450,Regular,Regular Gasoline,6,41467,Kia,Optima FE,Y,0,,Large Cars,2020,250,Optima,,9.5,0.1,0
+362,24,0,2,2350,Premium,Premium Gasoline,5,41482,Lexus,NX 300 AWD,Y,0,,Small Sport Utility Vehicle 4WD,2020,-4250,NX,,7.5,0.1,0
+353,25,0,3,2250,Premium,Premium Gasoline,5,41341,BMW,M340i,N,0,,Compact Cars,2020,-3750,M,,6,0.1,0
+379,23,0,2,2450,Premium,Premium Gasoline,5,41248,Jaguar,E-Pace P300,N,0,,Small Sport Utility Vehicle 4WD,2020,-4750,E-Pace,,7.5,0.1,0
+407,22,0,3,2550,Premium,Premium Gasoline,4,41281,Jaguar,F-Type S Convertible,N,0,,Two Seaters,2020,-5250,F-Type,,7.5,0.1,0
+417,21,0,3.5,2000,Regular,Regular Gasoline,4,41386,Toyota,Sienna 2WD,Y,0,,Minivan - 2WD,2020,-2500,Sienna,,9.5,0.1,0
+368,24,0,2,2350,Premium,Premium Gasoline,5,41597,Kia,Stinger AWD,N,0,,Midsize Cars,2020,-4250,Stinger,,7.5,0.1,0
+339,26,0,1.5,1600,Regular,Regular Gasoline,5,41506,GMC,Terrain AWD,N,0,,Small Sport Utility Vehicle 4WD,2020,-500,Terrain,,7.5,0.1,0
+358,25,0,2,1700,Regular,Regular Gasoline,5,41439,Hyundai,Tucson FWD,N,0,,Small Sport Utility Vehicle 2WD,2020,-1000,Tucson,,7.5,0.1,0
+399,23,0,2,1850,Regular,Regular Gasoline,5,41475,Hyundai,Santa Fe FWD,N,0,,Small Sport Utility Vehicle 2WD,2020,-1750,Santa Fe,,7.5,0.1,0
+213,42,0,2,1000,Regular,Regular Gasoline,9,41437,Kia,Optima Hybrid,N,0,,Midsize Cars,2020,2500,Optima,Hybrid,7.5,0.1,0
+446,20,0,3,2800,Premium,Premium Gasoline,4,41286,Jaguar,F-Pace,N,0,,Small Sport Utility Vehicle 4WD,2020,-6500,F-Pace,,7.5,0.1,0
+277,32,0,2,1300,Regular,Regular Gasoline,7,41215,Toyota,Corolla,N,0,,Compact Cars,2020,1000,Corolla,,6,0.1,0
+361,24,0,2,2350,Premium,Premium Gasoline,5,41313,BMW,230i xDrive Convertible,N,0,,Subcompact Cars,2020,-4250,2 Series,,6,0.1,0
+408,22,0,3,2550,Premium,Premium Gasoline,4,41348,BMW,440i Coupe,N,0,,Compact Cars,2020,-5250,4 Series,,6,0.1,0
+308,29,0,2.5,1450,Regular,Regular Gasoline,6,41569,Subaru,Outback AWD,Y,0,,Small Sport Utility Vehicle 4WD,2020,250,Outback,,7.5,0.1,0
+506,17,0,4,3300,Premium,Premium Gasoline,3,41596,Mercedes-Benz,AMG GT C Coupe,N,0,,Two Seaters,2020,-9000,AMG GT,,7.5,0.1,0
+327,27,0,2,1550,Regular,Regular Gasoline,6,41559,Hyundai,Elantra GT,N,0,,Large Cars,2020,-250,Elantra,,9.5,0.1,0
+373,24,0,2,2350,Premium,Premium Gasoline,5,41498,Volvo,V90 CC AWD,N,0,,Midsize Station Wagons,2020,-4250,V90,,9.5,0.1,0
+327,27,0,2,2100,Premium,Premium Gasoline,6,41312,BMW,230i Convertible,N,0,,Subcompact Cars,2020,-3000,2 Series,,6,0.1,0
+352,25,0,2,2250,Premium,Premium Gasoline,5,41509,Volvo,XC40 AWD,N,0,,Small Sport Utility Vehicle 4WD,2020,-3750,XC40,,7.5,0.1,0
+322,27,0,2,2100,Premium,Premium Gasoline,6,41490,Volvo,S60 FWD,Y,0,,Compact Cars,2020,-3000,S60,,6,0.1,0
+436,21,0,3.3,2000,Regular,Regular Gasoline,4,41407,Kia,Sedona,N,0,,Minivan - 2WD,2020,-2500,Sedona,,9.5,0.1,0
+327,27,0,2,2100,Premium,Premium Gasoline,6,41342,BMW,430i Coupe,N,0,,Compact Cars,2020,-3000,4 Series,,6,0.1,0
+361,24,0,3,2350,Premium,Premium Gasoline,5,41327,BMW,440i Convertible,N,0,,Subcompact Cars,2020,-4250,4 Series,,6,0.1,0
+505,18,0,5.3,2350,Regular,Regular Gasoline,3,41579,GMC,Yukon C1500 2WD,N,0,,Standard Sport Utility Vehicle 2WD,2020,-4250,Yukon,,9.5,0.1,0
+556,16,0,5.2,3500,Premium,Premium Gasoline,2,41395,Audi,R8 AWD,N,0,,Two Seaters,2020,-10000,R8,,7.5,0.1,0
+421,21,0,2,2000,Regular,Regular Gasoline,4,41231,Kia,Sportage AWD,N,0,,Small Sport Utility Vehicle 4WD,2020,-2500,Sportage,,7.5,0.1,0
+0,106,31.6837,,700,Electricity,Electricity,10,49748,Volvo,EC40,N,298,,Small Sport Utility Vehicle 2WD,2026,4000,EC40,EV,16.66,1.42,0.0122
+0,86,39.7563,,900,Electricity,Electricity,10,48693,Cadillac,LYRIQ AWD (19 kW Charger),N,303,,Small Sport Utility Vehicle 4WD,2025,3000,LYRIQ,EV,19.18,1.81,0.0153
+0,109,30.9191,,700,Electricity,Electricity,10,48996,Tesla,Model 3 Performance AWD,N,298,,Midsize Cars,2025,4000,Model 3,EV,16.44,1.38,0.0119
+0,120,27.4801,,600,Electricity,Electricity,10,46000,Hyundai,Kona Electric,N,258,,Small Sport Utility Vehicle 2WD,2023,4500,Kona,EV,14.38,1.06,0.0106
+0,78,43.2259,,950,Electricity,Electricity,10,47891,Rivian,R1S Dual Large (21in),N,352,,Standard Sport Utility Vehicle 4WD,2024,2750,R1S,EV,24.26,2.28,0.0167
+0,79,43,,950,Electricity,Electricity,10,48395,Mercedes-Benz,EQS 450 4matic (SUV),N,312,,Standard Sport Utility Vehicle 4WD,2025,2750,EQS,EV,22.51,2.01,0.0166
+0,111,29.7709,,650,Electricity,Electricity,10,48363,Hyundai,Ioniq 6 RWD (20 inch Wheels),N,291,,Midsize Cars,2025,4250,Ioniq 6,EV,15.9,1.3,0.0115
+0,76,44.3995,,1000,Electricity,Electricity,10,48333,BMW,iX M60 (21 inch Wheels),N,284,,Standard Sport Utility Vehicle 4WD,2025,2500,iX,EV,21.73,1.89,0.0171
+0,70,47.9143,,1100,Electricity,Electricity,9,48706,Ford,F-150 Lightning 4WD PRO ER1,N,320,,Standard Pickup Trucks 4WD,2025,2000,F-150 Lightning,EV,27.87,2.3,0.0185
+0,83,41,,900,Electricity,Electricity,10,50027,Cadillac,OPTIQ AWD V SERIES 19 kW charger 15 modes,N,250,,Standard Sport Utility Vehicle 2WD,2026,3000,OPTIQ,EV,19.44,1.54,0.0158
+0,131,25.8238,,600,Electricity,Electricity,10,46204,Tesla,Model 3 Long Range AWD,N,358,,Midsize Cars,2023,4500,Model 3,EV,16.47,1.39,0.01
+0,112,30.1254,,700,Electricity,Electricity,10,49968,Lucid,Air G Touring XR AWD with 21 inch wheels,N,446,,Large Cars,2026,4000,Air,EV,22.53,2.02,0.0116
+0,76,44.478,,1000,Electricity,Electricity,10,47002,Rivian,R1T 22 inch Dual Large,N,341,,Standard Pickup Trucks 4WD,2023,2500,R1T,EV,27.71,2.28,0.0172
+0,68,49.2406,,1100,Electricity,Electricity,10,47888,Rivian,R1S All-Terrain Performance Dual Large (20in),N,307,,Standard Sport Utility Vehicle 4WD,2024,2000,R1S,EV,24.16,2.27,0.019
+0,98,34.3752,,750,Electricity,Electricity,10,49616,BMW,i5 xDrive40 Sedan (19 inch Wheels),N,278,,Compact Cars,2026,3750,i5,EV,15.27,1.43,0.0133
+0,91,37.0929,,850,Electricity,Electricity,10,45139,Ford,Mustang Mach-E AWD Extended,N,277,,Small Sport Utility Vehicle 4WD,2022,3250,Mustang Mach-E,EV,17.47,1.54,0.0143
+0,88,38.4128,,850,Electricity,Electricity,10,49945,BMW,i7 xDrive60 Sedan (19 inch Wheels),N,311,,Large Cars,2026,3250,i7,EV,21.09,1.79,0.0148
+0,107,32,,700,Electricity,Electricity,10,45259,Volkswagen,ID.4 Pro,N,275,,Small Sport Utility Vehicle 2WD,2022,4000,ID.4,EV,16.04,1.32,0.0124
+0,90,37,,850,Electricity,Electricity,10,46950,Genesis,GV60 PERFORMANCE,N,235,,Small Sport Utility Vehicle 4WD,2024,3250,GV60,EV,15.93,1.3,0.0143
+0,87,38.6225,,850,Electricity,Electricity,10,47808,Acura,ZDX AWD,N,304,,Standard Sport Utility Vehicle 2WD,2024,3250,ZDX,EV,20.89,1.76,0.0149
+0,104,32.283,,750,Electricity,Electricity,10,42563,Nissan,Leaf SV/SL (62 kW-hr battery pack),N,215,,Midsize Cars,2020,3750,Leaf,EV,14.23,1.04,0.0125
+0,122,27.7036,,600,Electricity,Electricity,10,47910,Tesla,Model S,N,402,,Large Cars,2024,4500,Model S,EV,20.3,1.67,0.0107
+0,79,42.8711,,950,Electricity,Electricity,10,48745,Rivian,R1S Dual Large (20in),N,300,,Standard Sport Utility Vehicle 4WD,2025,2750,R1S,EV,21.98,1.93,0.0165
+0,78,43.1237,,950,Electricity,Electricity,10,49729,Rivian,R1S Performance Dual Large Plus (20in),N,317,,Standard Sport Utility Vehicle 4WD,2026,2750,R1S,EV,22.76,2.05,0.0166
+0,88,38.3624,,850,Electricity,Electricity,10,48409,Polestar,3 Long Range Dual Motor (21 Inch Wheels),N,315,,Standard Sport Utility Vehicle 4WD,2025,3250,3,EV,21.22,1.81,0.0148
+0,88,38.1958,,850,Electricity,Electricity,10,48325,BMW,i7 eDrive50 Sedan (19 inch Wheels),N,314,,Large Cars,2025,3250,i7,EV,21.13,1.8,0.0147
+0,89,37.7006,,850,Electricity,Electricity,10,50024,Acura,ZDX AWD,N,323,,Standard Sport Utility Vehicle 4WD,2026,3250,ZDX,EV,21.31,1.83,0.0146
+0,102,33,,750,Electricity,Electricity,10,46976,Polestar,2 Dual Motor (20 Inch Wheels),N,266,,Midsize Cars,2024,3750,2,EV,16.01,1.32,0.0127
+0,83,40.8272,,900,Electricity,Electricity,10,46943,BMW,iX xDrive50 (21 inch wheels),N,307,,Standard Sport Utility Vehicle 4WD,2024,3000,iX,EV,21.66,1.88,0.0158
+0,105,32.0033,,700,Electricity,Electricity,10,43403,Tesla,Model X Long Range Plus,N,371,,Standard Sport Utility Vehicle 4WD,2021,4000,Model X,EV,21.02,1.78,0.0124
+0,102,32.9685,,750,Electricity,Electricity,10,49988,Volkswagen,ID.4 AWD,N,263,,Small Sport Utility Vehicle 4WD,2026,3750,ID.4,EV,15.91,1.3,0.0127
+0,87,35,,800,Electricity,Electricity,10,49072,Dodge,Charger Daytona R/T AWD 245/55ZR18,N,274,,Large Cars,2025,3500,Charger,EV,18.8,1.44,0.0135
+0,96,35.0319,,800,Electricity,Electricity,10,42286,Tesla,Model X Long Range,N,328,,Standard Sport Utility Vehicle 4WD,2020,3500,Model X,EV,20.65,1.72,0.0135
+0,80,42.3096,,950,Electricity,Electricity,10,45132,BMW,i4 M50 Gran Coupe (20 inch wheels),N,227,,Subcompact Cars,2022,2750,i4,EV,15.32,1.44,0.0163
+0,76,44.3737,,1000,Electricity,Electricity,10,49085,Vinfast,VF 7 Plus,N,209,,Special Purpose Vehicle 4WD,2025,2500,VF 7,EV,17,1.39,0.0171
+0,87,38.949,,900,Electricity,Electricity,10,49942,BMW,i7 eDrive50 Sedan (21 inch Wheels),N,307,,Large Cars,2026,3000,i7,EV,21.1,1.79,0.015
+0,104,32.2898,,750,Electricity,Electricity,10,49069,Chevrolet,Blazer EV FWD,N,312,,Small Sport Utility Vehicle 2WD,2025,3750,Blazer,EV,17.27,1.51,0.0125
+0,112,30.0071,,700,Electricity,Electricity,10,43820,Kia,Niro Electric,N,239,,Small Station Wagons,2021,4000,Niro,EV,12.96,1.08,0.0116
+0,86,38.977,,900,Electricity,Electricity,10,49121,Porsche,Taycan GTS,N,293,,Compact Cars,2025,3000,Taycan,EV,17.08,1.71,0.015
+0,100,33.5879,,750,Electricity,Electricity,10,49653,Genesis,GV60 AWD (19 inch Wheels),N,282,,Small Sport Utility Vehicle 4WD,2026,3750,GV60,EV,16.69,1.42,0.013
+0,103,31,,700,Electricity,Electricity,10,48358,Hyundai,Kona Electric (19 inch Wheels),N,230,,Small Sport Utility Vehicle 2WD,2025,4000,Kona,EV,14.42,1.07,0.012
+0,111,30.4704,,700,Electricity,Electricity,10,44492,Lucid,Air Dream P AWD w/21 inch wheels,N,451,,Large Cars,2022,4000,Air,EV,22.83,2.06,0.0118
+0,93,36.4003,,800,Electricity,Electricity,10,46911,Audi,Q4 50 e-tron quattro,N,236,,Standard Sport Utility Vehicle 4WD,2024,3500,Q4 e-tron,EV,17.83,1.29,0.0141
+0,68,49.3574,,1100,Electricity,Electricity,10,46314,Rivian,R1T (22 inch wheels),N,303,,Standard Pickup Trucks 4WD,2023,2000,R1T,EV,27.51,2.24,0.0191
+0,78,43.3111,,950,Electricity,Electricity,10,47894,Rivian,R1S Dual Max (22in),N,380,,Standard Sport Utility Vehicle 4WD,2024,2750,R1S,EV,25.46,2.47,0.0167
+0,81,41.8433,,950,Electricity,Electricity,10,44783,Audi,RS e-tron GT,N,232,,Midsize Cars,2022,2750,RS e-tron GT,EV,16.92,1.46,0.0162
+0,98,34.2466,,750,Electricity,Electricity,10,49125,Tesla,Model X,N,329,,Standard Sport Utility Vehicle 4WD,2025,3750,Model X,EV,20.43,1.69,0.0132
+0,78,43.2248,,950,Electricity,Electricity,10,48419,Rivian,R1T All-Terrain Performance Dual Max (20in),N,370,,Standard Pickup Trucks 4WD,2025,2750,R1T,EV,28.51,2.4,0.0167
+0,113,29.7947,,650,Electricity,Electricity,10,43662,BMW,i3s,N,153,,Subcompact Cars,2021,4250,i3,EV,10.42,0.68,0.0115
+0,60,56.2587,,1250,Electricity,Electricity,10,48305,Audi,SQ8 e-tron (21/22 inch wheels),N,208,,Standard Sport Utility Vehicle 4WD,2025,1250,SQ8 e-tron,EV,20.85,1.76,0.0217
+0,115,29.4031,,650,Electricity,Electricity,10,49612,Audi,Q4 45 e-tron,N,288,,Standard Sport Utility Vehicle 2WD,2026,4250,Q4 e-tron,EV,17.71,1.27,0.0113
+0,96,35,,800,Electricity,Electricity,10,49656,Genesis,Electrified GV70 AWD (19 inch Wheels),N,263,,Standard Sport Utility Vehicle 4WD,2026,3500,GV70,EV,18.43,1.38,0.0135
+0,107,31.4767,,700,Electricity,Electricity,10,46037,Volkswagen,ID.4 S,N,209,,Small Sport Utility Vehicle 2WD,2023,4000,ID.4,EV,13.88,0.99,0.0122
+0,52,65.1464,,1450,Electricity,Electricity,10,48348,GMC,Hummer EV SUV 3X,N,312,,Standard Sport Utility Vehicle 4WD,2025,250,Hummer EV,EV,29.22,3.05,0.0251
+0,132,25.5849,,600,Electricity,Electricity,10,48377,Lucid,Air Touring AWD with 19 inch wheels,N,406,,Large Cars,2025,4500,Air,EV,19.58,1.56,0.0099
+0,96,35.1127,,800,Electricity,Electricity,10,49956,Chevrolet,Equinox EV AWD (19 kW Charger),N,288,,Small Sport Utility Vehicle 4WD,2026,3500,Equinox,EV,17.31,1.52,0.0136
+0,67,50.1027,,1150,Electricity,Electricity,10,49714,Rivian,R1T Quad Max (20in AT),N,325,,Standard Pickup Trucks 4WD,2026,1750,R1T,EV,28.79,2.44,0.0193
+0,65,52.0787,,1150,Electricity,Electricity,10,44780,Audi,e-tron S Sportback (21/22 inch wheels),N,185,,Standard Sport Utility Vehicle 4WD,2022,1750,e-tron S,EV,18.85,1.45,0.0201
+0,116,29.1671,,650,Electricity,Electricity,10,48308,BMW,i4 eDrive35 Gran Coupe (18 inch Wheels),N,266,,Compact Cars,2025,4250,i4,EV,13.53,1.16,0.0113
+0,105,31,,700,Electricity,Electricity,10,49100,Lexus,RZ 300e (20 inch wheels),N,224,,Small Sport Utility Vehicle 2WD,2025,4000,RZ,EV,14.24,1.04,0.012
+0,65,51.6452,,1150,Electricity,Electricity,10,47887,Rivian,R1S All-Terrain Dual Standard Plus (20in),N,277,,Standard Sport Utility Vehicle 4WD,2024,1750,R1S,EV,23.38,2.15,0.0199
+0,130,25.8779,,600,Electricity,Electricity,10,42274,Tesla,Model 3 Long Range,N,330,,Midsize Cars,2020,4500,Model 3,EV,15.78,1.28,0.01
+0,76,44.3622,,1000,Electricity,Electricity,10,48752,Rivian,R1T All-Terrain Dual Large (20in),N,289,,Standard Pickup Trucks 4WD,2025,2500,R1T,EV,25.44,1.92,0.0171
+0,95,35.5787,,800,Electricity,Electricity,10,45752,Polestar,2 BST edition,N,247,,Midsize Cars,2023,3500,2,EV,16.02,1.32,0.0137
+0,63,53.3826,,1200,Electricity,Electricity,10,46946,Chevrolet,Silverado EV,N,450,,Standard Pickup Trucks 4WD,2024,1500,Silverado,EV,36.3,3.6,0.0206
+0,101,33.3071,,750,Electricity,Electricity,10,46985,Ford,Mustang Mach-E RWD LFP,N,250,,Small Sport Utility Vehicle 2WD,2023,3750,Mustang Mach-E,EV,15.58,1.25,0.0129
+0,103,32.7108,,750,Electricity,Electricity,10,46015,Nissan,ARIYA VENTURE Plus FWD 87kWh,N,304,,Small Station Wagons,2023,3750,ARIYA,EV,15.65,1.49,0.0126
+0,48,70.2768,,1600,Electricity,Electricity,10,48350,GMC,Hummer EV SUV MT Tires 3X,N,289,,Standard Sport Utility Vehicle 4WD,2025,-500,Hummer EV,EV,29.2,3.05,0.0271
+0,53,63.8996,,1450,Electricity,Electricity,10,48343,GMC,Hummer EV Pickup 2X,N,318,,Standard Pickup Trucks 4WD,2025,250,Hummer EV,EV,32.71,3.05,0.0247
+0,114,29.5376,,650,Electricity,Electricity,10,43640,Kandi,K27,N,59,,Compact Cars,2021,4250,K27,EV,7.69,0.26,0.0114
+0,83,40.6332,,900,Electricity,Electricity,10,45994,BMW,i7 xDrive60 Sedan (20 inch wheels),N,296,,Large Cars,2023,3000,i7,EV,21.17,1.8,0.0157
+0,78,42.7868,,950,Electricity,Electricity,10,47860,Porsche,Taycan 4S Cross Turismo,N,230,,Midsize Cars,2024,2750,Taycan,EV,17.05,1.48,0.0165
+0,76,44.294,,1000,Electricity,Electricity,10,49087,Vinfast,VF 8 Plus,N,235,,Special Purpose Vehicle 4WD,2025,2500,VF 8,EV,18.1,1.56,0.0171
+0,88,38.0941,,850,Electricity,Electricity,10,46931,BMW,i7 eDrive50 Sedan (21 inch Wheels),N,311,,Large Cars,2024,3250,i7,EV,20.99,1.78,0.0147
+0,90,37.641,,850,Electricity,Electricity,10,49676,Lucid,Gravity Dream w/21F22R wheels (3R),N,378,,Standard Sport Utility Vehicle 4WD,2026,3250,Gravity,EV,23.3,2.13,0.0145
+0,78,43.1758,,950,Electricity,Electricity,10,48299,Audi,Q8 e-tron quattro (20 inch wheels),N,272,,Standard Sport Utility Vehicle 4WD,2025,2750,Q8 e-tron,EV,20.89,1.76,0.0167
+0,94,35.9765,,800,Electricity,Electricity,10,48447,Volvo,EX40 Twin,N,260,,Small Sport Utility Vehicle 4WD,2025,3500,EX40,EV,16.57,1.4,0.0139
+0,80,42.2946,,950,Electricity,Electricity,10,46938,BMW,iX M60 (22 inch Wheels),N,296,,Standard Sport Utility Vehicle 4WD,2024,2750,iX,EV,21.64,1.88,0.0163
+0,70,47.8421,,1100,Electricity,Electricity,10,49638,Chevrolet,"Silverado EV 20-mod battery, 19kW 6-mode charger",N,424,,Standard Pickup Trucks 4WD,2026,2000,Silverado,EV,32.68,3.04,0.0185
+0,95,35.6322,,800,Electricity,Electricity,10,44782,Audi,Q4 e-tron Sportback quattro,N,241,,Standard Sport Utility Vehicle 4WD,2022,3500,Q4 e-tron,EV,17.83,1.29,0.0138
+0,80,42,,950,Electricity,Electricity,10,48396,Mercedes-Benz,EQS 580 4matic (SUV),N,317,,Standard Sport Utility Vehicle 4WD,2025,2750,EQS,EV,22.41,2,0.0162
+0,80,41.9729,,950,Electricity,Electricity,10,48426,Rivian,R1T Performance Dual Max (20in),N,380,,Standard Pickup Trucks 4WD,2025,2750,R1T,EV,28.47,2.39,0.0162
+0,85,39.4726,,900,Electricity,Electricity,10,48759,Rivian,R1T Performance Dual Large (22in),N,329,,Standard Pickup Trucks 4WD,2025,3000,R1T,EV,25.6,1.95,0.0152
+0,83,40.754,,900,Electricity,Electricity,10,49946,BMW,i7 xDrive60 Sedan (20 inch Wheels),N,296,,Large Cars,2026,3000,i7,EV,21.2,1.81,0.0157
+0,63,53.3095,,1200,Electricity,Electricity,10,44778,Audi,e-tron S (21/22 inch wheels),N,181,,Standard Sport Utility Vehicle 4WD,2022,1500,e-tron S,EV,18.86,1.45,0.0206
+0,67,50.2832,,1150,Electricity,Electricity,10,49643,Chevrolet,"Silverado EV 14-mod battery, 11kW 15-mode charger",N,283,,Standard Pickup Trucks 4WD,2026,1750,Silverado,EV,26.8,2.13,0.0194
+0,86,39.1428,,900,Electricity,Electricity,10,49647,Dodge,Charger Daytona R/T AWD 305/35ZR20,N,267,,Large Cars,2026,3000,Charger,EV,19.64,1.57,0.0151
+0,86,39.2692,,900,Electricity,Electricity,10,45137,BMW,iX xDrive50 (22 inch wheels),N,315,,Standard Sport Utility Vehicle 4WD,2022,3000,iX,EV,21.5,1.86,0.0152
+0,115,29.2238,,650,Electricity,Electricity,10,46978,Polestar,2 Single Motor (19 Inch Wheels),Y,320,,Midsize Cars,2024,4250,2,EV,16.57,1.4,0.0113
+0,72,46.5919,,1050,Electricity,Electricity,10,49649,Dodge,Charger Daytona Scat Pack AWD 325/35ZR20 Rear,N,223,,Large Cars,2026,2250,Charger,EV,19.58,1.56,0.018
+0,76,44.5717,,1000,Electricity,Electricity,10,48751,Rivian,R1S Tri Max (22in),N,371,,Standard Sport Utility Vehicle 4WD,2025,2500,R1S,EV,25.54,2.48,0.0172
+0,100,33.8643,,750,Electricity,Electricity,10,43604,Ford,Mustang Mach-E RWD,N,230,,Small Station Wagons,2021,3750,Mustang Mach-E,EV,13.56,1.17,0.0131
+0,102,32,,700,Electricity,Electricity,10,49128,Toyota,bZ4X AWD (20inch Wheels),N,222,,Small Sport Utility Vehicle 4WD,2025,4000,bZ4X,EV,14.39,1.07,0.0124
+0,90,36.8341,,850,Electricity,Electricity,10,48355,Genesis,GV60 AWD Performance,N,235,,Small Sport Utility Vehicle 4WD,2025,3250,GV60,EV,15.9,1.3,0.0142
+0,105,31.4874,,700,Electricity,Electricity,10,47833,Lexus,RZ 300e (20 inch wheels),N,224,,Small Sport Utility Vehicle 2WD,2024,4000,RZ,EV,14.34,1.06,0.0122
+0,97,35,,800,Electricity,Electricity,10,43557,Volkswagen,ID.4 1st,N,250,,Small Sport Utility Vehicle 2WD,2021,3500,ID.4,EV,15.99,1.31,0.0135
+0,74,45.5282,,1000,Electricity,Electricity,10,48393,Mercedes-Benz,AMG EQE 4matic Plus (SUV),N,230,,Standard Sport Utility Vehicle 4WD,2025,2500,EQE,EV,19.66,1.57,0.0176
+0,120,28.1799,,650,Electricity,Electricity,10,45014,Tesla,Model S,Y,405,,Large Cars,2022,4250,Model S,EV,20.57,1.71,0.0109
+0,72,46.9714,,1050,Electricity,Electricity,10,49077,Ford,F-150 Lightning 4WD ER2,Y,300,,Standard Pickup Trucks 4WD,2025,2250,F-150 Lightning,EV,26.67,2.11,0.0181
+0,68,49.9016,,1100,Electricity,Electricity,10,42427,Porsche,Taycan Turbo S,N,192,,Large Cars,2020,2000,Taycan,EV,18.79,1.44,0.0193
+0,70,48.1489,,1100,Electricity,Electricity,10,48304,Audi,SQ8 e-tron (20 inch wheels),N,242,,Standard Sport Utility Vehicle 4WD,2025,2000,SQ8 e-tron,EV,20.8,1.75,0.0186
+0,91,36.8364,,850,Electricity,Electricity,10,49632,Cadillac,LYRIQ (19 kW Charger),N,326,,Small Sport Utility Vehicle 2WD,2026,3250,LYRIQ,EV,19.15,1.8,0.0142
+0,70,47.9143,,1100,Electricity,Electricity,10,47820,Ford,F-150 Lightning PRO 4WD Extended Range,N,320,,Standard Pickup Trucks 4WD,2024,2000,F-150 Lightning,EV,27.87,2.3,0.0185
+0,79,43,,950,Electricity,Electricity,10,47475,Porsche,Taycan Turbo Cross Turismo,N,233,,Midsize Cars,2024,2750,Taycan,EV,17.22,1.5,0.0166
+0,105,32.2022,,700,Electricity,Electricity,10,49745,Tesla,Model X,N,352,,Standard Sport Utility Vehicle 4WD,2026,4000,Model X,EV,20.5,1.7,0.0124
+0,72,46.7443,,1050,Electricity,Electricity,10,47875,Rivian,R1T Dual Standard Plus (22in),N,300,,Standard Pickup Trucks 4WD,2024,2250,R1T,EV,26.6,2.1,0.018
+0,116,29.1656,,650,Electricity,Electricity,10,44494,Lucid,Air Dream R AWD w/21 inch wheels,N,481,,Large Cars,2022,4250,Air,EV,23.11,2.1,0.0113
+0,107,31.5973,,700,Electricity,Electricity,10,49155,Volkswagen,ID.4,N,206,,Small Sport Utility Vehicle 2WD,2025,4000,ID.4,EV,13.81,0.98,0.0122
+0,96,34.6491,,800,Electricity,Electricity,10,47460,Mercedes-Benz,EQE 500 4matic,N,298,,Midsize Cars,2024,3500,EQE,EV,17.52,1.55,0.0134
+0,93,36.0755,,800,Electricity,Electricity,10,48390,Mercedes-Benz,EQE 350 Plus (SUV),N,302,,Midsize Station Wagons,2025,3500,EQE,EV,20.07,1.63,0.0139
+0,110,30.5687,,700,Electricity,Electricity,10,49652,Genesis,GV60 RWD,N,306,,Small Sport Utility Vehicle 2WD,2026,4000,GV60,EV,16.57,1.4,0.0118
+0,79,42.8683,,950,Electricity,Electricity,10,48435,Rivian,R1S Dual Standard (20in),N,258,,Standard Sport Utility Vehicle 4WD,2025,2750,R1S,EV,20.23,1.66,0.0165
+0,76,44.3076,,1000,Electricity,Electricity,10,43889,Jaguar,I-Pace EV400,N,234,,Small Sport Utility Vehicle 4WD,2021,2500,I-Pace,EV,17.56,1.56,0.0171
+0,63,53.6978,,1200,Electricity,Electricity,10,46993,Rivian,R1S 20 inch All-Terrain,N,274,,Standard Sport Utility Vehicle 4WD,2023,1500,R1S,EV,23.77,2.21,0.0207
+0,66,50.7794,,1150,Electricity,Electricity,10,49071,Chevrolet,Silverado EV 2WT,N,282,,Standard Pickup Trucks 4WD,2025,1750,Silverado,EV,26.89,2.15,0.0196
+0,65,51.6452,,1150,Electricity,Electricity,10,47890,Rivian,R1S AT Performance Dual Standard Plus (20in),N,277,,Standard Sport Utility Vehicle 4WD,2024,1750,R1S,EV,23.38,2.15,0.0199
+0,120,28.1608,,650,Electricity,Electricity,10,49967,Lucid,Air G Touring XR AWD with 20 inch wheels,N,480,,Large Cars,2026,4250,Air,EV,22.61,2.03,0.0109
+0,86,39.3181,,900,Electricity,Electricity,10,46940,BMW,iX xDrive40 (21 inch Wheels),N,217,,Standard Sport Utility Vehicle 4WD,2024,3000,iX,EV,17.78,1.28,0.0152
+0,92,36.4512,,800,Electricity,Electricity,10,49115,Lucid,Gravity GT w/22F23R wheels (3R),N,386,,Standard Sport Utility Vehicle 4WD,2025,3500,Gravity,EV,23.15,2.11,0.0141
+0,132,25.4472,,550,Electricity,Electricity,10,47909,Tesla,Model 3 RWD,N,272,,Midsize Cars,2024,4750,Model 3,EV,14.21,1.04,0.0098
+0,87,38.6474,,850,Electricity,Electricity,10,49622,BMW,iX xDrive45 (23 inch Wheels),N,290,,Standard Sport Utility Vehicle 4WD,2026,3250,iX,EV,20.37,1.68,0.0149
+0,84,40.1838,,900,Electricity,Electricity,10,46515,Ford,Mustang Mach-E GT,N,270,,Small Sport Utility Vehicle 4WD,2023,3000,Mustang Mach-E,EV,18.02,1.63,0.0155
+0,115,29,,650,Electricity,Electricity,10,48714,Hyundai,Ioniq 5 Standard range,N,245,,Small Sport Utility Vehicle 2WD,2025,4250,Ioniq 5,EV,14.39,1.07,0.0112
+0,91,36.916,,850,Electricity,Electricity,10,45022,Tesla,Model X Plaid (22 inch wheels),N,311,,Standard Sport Utility Vehicle 4WD,2022,3250,Model X,EV,20.64,1.72,0.0142
+0,79,42.4438,,950,Electricity,Electricity,10,46003,Kia,EV6 AWD GT,N,206,,Small Station Wagons,2023,2750,EV6,EV,14.48,1.31,0.0164
+0,78,42.6052,,950,Electricity,Electricity,10,46010,Mercedes-Benz,EQS 450 4matic (SUV),N,285,,Standard Sport Utility Vehicle 4WD,2023,2750,EQS,EV,21.28,1.82,0.0164
+0,117,28.9,,650,Electricity,Electricity,10,42755,Tesla,Model S Long Range Plus,N,402,,Large Cars,2020,4250,Model S,EV,20.77,1.74,0.0112
+0,98,34.3629,,750,Electricity,Electricity,10,46209,Tesla,Model X Plaid (20 inch wheels),N,333,,Standard Sport Utility Vehicle 4WD,2023,3750,Model X,EV,20.6,1.72,0.0133
+0,83,41,,900,Electricity,Electricity,10,48412,Polestar,4 Long Range Dual Motor,N,272,,Standard Sport Utility Vehicle 4WD,2025,3000,4,EV,20.32,1.67,0.0158
+0,88,38,,850,Electricity,Electricity,10,49665,Kia,EV9 Standard Range RWD,N,230,,Standard Sport Utility Vehicle 2WD,2026,3250,EV9,EV,17.98,1.31,0.0147
+0,68,49.3643,,1100,Electricity,Electricity,10,45318,Ford,F-150 Lightning 4WD,Y,230,,Standard Pickup Trucks 4WD,2022,2000,F-150 Lightning,EV,24.01,1.7,0.0191
+0,70,48.0759,,1100,Electricity,Electricity,10,44462,Rivian,R1T,Y,314,,Standard Pickup Trucks 4WD,2022,2000,R1T,EV,27.64,2.26,0.0186
+0,95,36,,800,Electricity,Electricity,10,47835,Lexus,RZ 450e AWD (20 inch wheels),N,196,,Small Sport Utility Vehicle 4WD,2024,3500,RZ,EV,14.34,1.06,0.0139
+0,76,44.5717,,1000,Electricity,Electricity,10,49705,Rivian,R1T Tri Max (22in),N,371,,Standard Pickup Trucks 4WD,2026,2500,R1T,EV,29.04,2.48,0.0172
+0,103,32.6939,,750,Electricity,Electricity,10,46910,Audi,Q4 40 e-tron,N,265,,Standard Sport Utility Vehicle 2WD,2024,3750,Q4 e-tron,EV,17.9,1.3,0.0126
+0,120,28,,650,Electricity,Electricity,10,44444,Hyundai,Kona Electric,N,258,,Small Sport Utility Vehicle 2WD,2022,4250,Kona,EV,14.51,1.08,0.0108
+0,104,32,,700,Electricity,Electricity,10,48762,Subaru,Solterra AWD,N,227,,Small Sport Utility Vehicle 4WD,2025,4000,Solterra,EV,14.55,1.09,0.0124
+0,102,33.0836,,750,Electricity,Electricity,10,45020,Tesla,Model X,N,348,,Standard Sport Utility Vehicle 4WD,2022,3750,Model X,EV,20.67,1.73,0.0128
+0,78,43.2248,,950,Electricity,Electricity,10,48429,Rivian,R1S All-Terrain Dual Max (20in),N,370,,Standard Sport Utility Vehicle 4WD,2025,2750,R1S,EV,25.01,2.4,0.0167
+0,79,42.4501,,950,Electricity,Electricity,10,48329,BMW,i7 M70 xDrive Sedan (21 inch Wheels),N,285,,Large Cars,2025,2750,i7,EV,21.24,1.81,0.0164
+0,103,32.6939,,750,Electricity,Electricity,10,45983,Audi,Q4 e-tron,N,265,,Small Sport Utility Vehicle 2WD,2023,3750,Q4 e-tron,EV,15.9,1.3,0.0126
+0,131,25.6484,,600,Electricity,Electricity,10,49154,Tesla,Model 3 Long Range RWD-I (19in wheels),N,346,,Midsize Cars,2025,4500,Model 3,EV,16.11,1.33,0.0099
+0,99,33.9679,,750,Electricity,Electricity,10,47828,Honda,Prologue FWD,N,296,,Standard Sport Utility Vehicle 2WD,2024,3750,Prologue,EV,19.25,1.51,0.0131
+0,76,44.5717,,1000,Electricity,Electricity,10,49730,Rivian,R1S Tri Max (22in),N,371,,Standard Sport Utility Vehicle 4WD,2026,2500,R1S,EV,25.54,2.48,0.0172
+0,120,28.0056,,650,Electricity,Electricity,10,48476,Tesla,Model Y RWD,N,260,,Small Sport Utility Vehicle 2WD,2024,4250,Model Y,EV,14.56,1.09,0.0108
+0,74,45.4581,,1000,Electricity,Electricity,10,47481,Rolls-Royce,Spectre (23 inch wheels),N,266,,Compact Cars,2024,2500,Spectre,EV,17.73,1.81,0.0175
+0,113,29.783,,650,Electricity,Electricity,10,47923,Volkswagen,ID.4 Pro S,N,291,,Small Sport Utility Vehicle 2WD,2024,4250,ID.4,EV,15.91,1.3,0.0115
+0,90,37.641,,850,Electricity,Electricity,10,49677,Lucid,Gravity Dream w/22F23R wheels (3R),N,378,,Standard Sport Utility Vehicle 4WD,2026,3250,Gravity,EV,23.3,2.13,0.0145
+0,128,26.3757,,600,Electricity,Electricity,10,50037,Tesla,Model 3 Premium AWD,N,346,,Midsize Cars,2026,4500,Model 3,EV,16.35,1.37,0.0102
+0,121,27.7525,,600,Electricity,Electricity,10,48378,Lucid,Air Touring AWD with 20 inch wheels,N,377,,Large Cars,2025,4500,Air,EV,19.65,1.57,0.0107
+0,83,40.6757,,900,Electricity,Electricity,10,45997,BMW,iX xDrive50 (21 inch wheels),N,305,,Standard Sport Utility Vehicle 4WD,2023,3000,iX,EV,21.53,1.86,0.0157
+0,91,37.1566,,850,Electricity,Electricity,10,46947,Genesis,Electrified GV70,N,236,,Small Sport Utility Vehicle 4WD,2024,3250,GV70,EV,16.01,1.32,0.0143
+0,78,43,,950,Electricity,Electricity,10,49965,Hyundai,Ioniq 5 N,N,221,,Small Sport Utility Vehicle 4WD,2026,2750,Ioniq 5,EV,16.72,1.43,0.0166
+0,76,44.3718,,1000,Electricity,Electricity,10,49740,Rivian,R1S Quad Max (22in),N,374,,Standard Sport Utility Vehicle 4WD,2026,2500,R1S,EV,25.6,2.49,0.0171
+0,70,43,,950,Electricity,Electricity,10,49076,Dodge,Charger Daytona Scat Pack AWD 325/35ZR20 Rear,N,216,,Large Cars,2025,2750,Charger,EV,18.51,1.39,0.0166
+0,101,33.4451,,750,Electricity,Electricity,10,44069,Tesla,Model S Plaid (21inch wheels),N,348,,Large Cars,2021,3750,Model S,EV,20.79,1.75,0.0129
+0,79,43,,950,Electricity,Electricity,10,49688,Mercedes-Benz,EQS 400 4matic (SUV),N,312,,Standard Sport Utility Vehicle 4WD,2026,2750,EQS,EV,22.51,2.01,0.0166
+0,92,36.6389,,800,Electricity,Electricity,10,48719,Nissan,ARIYA ENGAGE+/EVOLVE+ e-4ORCE 87kWh,N,272,,Small Sport Utility Vehicle 4WD,2025,3500,ARIYA,EV,17.17,1.49,0.0141
+0,83,40.5945,,900,Electricity,Electricity,10,48338,BMW,iX xDrive50 (20 inch wheels),N,309,,Standard Sport Utility Vehicle 4WD,2025,3000,iX,EV,21.67,1.88,0.0157
+0,108,31.3048,,700,Electricity,Electricity,10,44447,Nissan,Leaf (62 kW-hr battery pack),N,226,,Midsize Cars,2022,4000,Leaf,EV,14.36,1.06,0.0121
+0,86,39.3181,,900,Electricity,Electricity,10,46939,BMW,iX xDrive40 (20 inch Wheels),N,217,,Standard Sport Utility Vehicle 4WD,2024,3000,iX,EV,17.78,1.28,0.0152
+0,92,37,,850,Electricity,Electricity,10,48387,Mercedes-Benz,EQS 450 4matic,N,367,,Large Cars,2025,3250,EQS,EV,22.67,2.04,0.0143
+0,91,36.8577,,850,Electricity,Electricity,10,48399,MINI,Countryman SE ALL4 (19 inch Wheels),N,204,,Small Sport Utility Vehicle 4WD,2025,3250,Countryman,EV,14.79,1.13,0.0142
+0,106,31.7016,,700,Electricity,Electricity,10,49747,Volvo,EX40,N,296,,Small Sport Utility Vehicle 2WD,2026,4000,EX40,EV,16.6,1.41,0.0122
+0,121,27.857,,650,Electricity,Electricity,10,46310,Lucid,Air Touring AWD with 20 inch wheels,N,384,,Large Cars,2023,4250,Air,EV,19.88,1.6,0.0108
+0,82,40.9029,,900,Electricity,Electricity,10,48420,Rivian,R1T Dual Large Plus (22in),N,330,,Standard Pickup Trucks 4WD,2025,3000,R1T,EV,26.09,2.02,0.0158
+0,106,31.7381,,700,Electricity,Electricity,10,49614,BMW,i5 eDrive40 Sedan (20 inch Wheels),N,300,,Compact Cars,2026,4000,i5,EV,15.24,1.43,0.0123
+0,78,43.2259,,950,Electricity,Electricity,10,47000,Rivian,R1T 21 inch Dual Large,N,352,,Standard Pickup Trucks 4WD,2023,2750,R1T,EV,27.76,2.28,0.0167
+0,101,33.5166,,750,Electricity,Electricity,10,48402,Polestar,2 Dual Motor (19 Inch Wheels),N,278,,Midsize Cars,2025,3750,2,EV,16.54,1.4,0.0129
+0,110,30.6096,,700,Electricity,Electricity,10,49613,BMW,i5 eDrive40 Sedan (19 inch Wheels),N,310,,Compact Cars,2026,4000,i5,EV,15.2,1.42,0.0118
+0,79,42.8711,,950,Electricity,Electricity,10,48755,Rivian,R1T Dual Large (20in),N,300,,Standard Pickup Trucks 4WD,2025,2750,R1T,EV,25.48,1.93,0.0165
+0,82,40.8697,,900,Electricity,Electricity,10,47901,Rivian,R1S Performance Dual Max (21in),N,400,,Standard Sport Utility Vehicle 4WD,2024,3000,R1S,EV,25.36,2.45,0.0158
+0,66,50.7071,,1150,Electricity,Electricity,9,48708,Ford,F-150 Lightning Platinum 4WD,N,300,,Standard Pickup Trucks 4WD,2025,1750,F-150 Lightning,EV,27.76,2.28,0.0196
+0,77,44,,1000,Electricity,Electricity,10,50035,Polestar,4 Long Range Dual Motor Performance,N,255,,Standard Sport Utility Vehicle 4WD,2026,2500,4,EV,20.38,1.68,0.017
+0,48,70,,1600,Electricity,Electricity,10,46519,Lordstown,Endurance,N,174,,Standard Pickup Trucks 4WD,2023,-500,Endurance,EV,24.81,1.83,0.027
+0,111,30.4264,,700,Electricity,Electricity,10,46016,Nissan,LEAF,Y,149,,Midsize Cars,2023,4000,LEAF,EV,11.9,0.68,0.0117
+0,117,29,,650,Electricity,Electricity,10,44927,Kia,EV6 RWD (Standard Range),N,232,,Small Station Wagons,2022,4250,EV6,EV,12.53,1.01,0.0112
+0,110,31,,700,Electricity,Electricity,10,46961,Hyundai,Ioniq 5 Standard range RWD,N,220,,Small Sport Utility Vehicle 2WD,2024,4000,Ioniq 5,EV,14.12,1.02,0.012
+0,97,34.8397,,800,Electricity,Electricity,10,48446,Volvo,EC40 Twin,N,268,,Small Sport Utility Vehicle 4WD,2025,3500,EC40,EV,16.56,1.4,0.0134
+0,80,42.359,,950,Electricity,Electricity,10,49633,Cadillac,LYRIQ PAWD V SERIES (11 kW Charger),N,285,,Small Sport Utility Vehicle 4WD,2026,2750,LYRIQ,EV,19.21,1.81,0.0164
+0,97,35,,800,Electricity,Electricity,10,43558,Volkswagen,ID.4 Pro S,Y,250,,Small Sport Utility Vehicle 2WD,2021,3500,ID.4,EV,15.99,1.31,0.0135
+0,80,42.2815,,950,Electricity,Electricity,10,47466,Porsche,Taycan 4S Performance Battery Plus,N,235,,Compact Cars,2024,2750,Taycan,EV,15.64,1.49,0.0163
+0,90,37.3929,,850,Electricity,Electricity,10,49080,Ford,Mustang Mach-E GT,N,280,,Small Sport Utility Vehicle 4WD,2025,3250,Mustang Mach-E,EV,17.66,1.57,0.0144
+0,79,42.8711,,950,Electricity,Electricity,10,49733,Rivian,R1S Dual Large (20in),N,300,,Standard Sport Utility Vehicle 4WD,2026,2750,R1S,EV,21.98,1.93,0.0165
+0,109,31.2399,,700,Electricity,Electricity,10,48697,Chevrolet,Equinox EV FWD,Y,319,,Small Sport Utility Vehicle 2WD,2025,4000,Equinox,EV,17.17,1.49,0.0121
+0,82,41.2589,,950,Electricity,Electricity,10,44776,Audi,e-tron GT,N,238,,Midsize Cars,2022,2750,e-tron GT,EV,17.03,1.47,0.0159
+0,81,42,,950,Electricity,Electricity,10,48780,Volvo,EX90 Twin Motor Performance (20 and 22 Inch Wheels),N,300,,Standard Sport Utility Vehicle 4WD,2025,2750,EX90,EV,21.72,1.89,0.0162
+0,118,28.6629,,650,Electricity,Electricity,10,42191,Chevrolet,Bolt EV,Y,259,,Small Station Wagons,2020,4250,Bolt EV,EV,13.2,1.11,0.0111
+0,121,27.793,,650,Electricity,Electricity,10,44496,Lucid,Air G Touring AWD w/21 inch wheels,N,469,,Large Cars,2022,4250,Air,EV,22.14,1.96,0.0107
+0,92,37,,850,Electricity,Electricity,10,49683,Mercedes-Benz,EQS 450 4matic,N,367,,Large Cars,2026,3250,EQS,EV,22.67,2.04,0.0143
+0,87,38.6155,,850,Electricity,Electricity,10,47004,Vinfast,VF 8 Eco,N,207,,Special Purpose Vehicle 4WD,2023,3250,VF 8,EV,15.75,1.2,0.0149
+0,125,26.7583,,600,Electricity,Electricity,10,49099,Lexus,RZ 300e (18 inch wheels),N,266,,Small Sport Utility Vehicle 2WD,2025,4500,RZ,EV,14.4,1.07,0.0103
+0,74,45.4265,,1000,Electricity,Electricity,10,49977,Rolls-Royce,Spectre Black Badge (22 inch Wheels),N,266,,Compact Cars,2026,2500,Spectre,EV,17.72,1.81,0.0175
+0,99,34,,750,Electricity,Electricity,10,44052,Volkswagen,ID.4 Pro,N,260,,Small Sport Utility Vehicle 2WD,2021,3750,ID.4,EV,16.07,1.33,0.0131
+0,83,40.6946,,900,Electricity,Electricity,10,47468,Porsche,Taycan GTS,N,246,,Compact Cars,2024,3000,Taycan,EV,15.71,1.5,0.0157
+0,103,32.7108,,750,Electricity,Electricity,10,47859,Nissan,ARIYA VENTURE Plus FWD 87kWh,N,304,,Small Station Wagons,2024,3750,ARIYA,EV,15.65,1.49,0.0126
+0,82,40.9029,,900,Electricity,Electricity,10,48437,Rivian,R1S Performance Dual Large Plus (22in),N,330,,Standard Sport Utility Vehicle 4WD,2025,3000,R1S,EV,22.59,2.02,0.0158
+0,68,49.2406,,1100,Electricity,Electricity,10,46994,Rivian,R1S 20 inch All-Terrain Dual Large,N,307,,Standard Sport Utility Vehicle 4WD,2023,2000,R1S,EV,24.16,2.27,0.019
+0,83,41,,900,Electricity,Electricity,10,47851,Mercedes-Benz,EQS 580 4matic (SUV),N,330,,Standard Sport Utility Vehicle 4WD,2024,3000,EQS,EV,22.62,2.03,0.0158
+0,64,52.3772,,1200,Electricity,Electricity,10,46315,Rivian,R1S (20 inch wheels),N,289,,Standard Sport Utility Vehicle 4WD,2023,1500,R1S,EV,24.18,2.27,0.0202
+93,26,57,2,2150,Premium and Electricity,Premium Gasoline,10,43144,Polestar,1,N,470,,Minicompact Cars,2021,-250,1,Plug-in Hybrid,8.5,0.3,0.022
+320,18,82,4,3150,Premium and Electricity,Premium Gasoline,6,43777,Porsche,Cayenne Turbo S e-Hybrid,N,370,,Standard Sport Utility Vehicle 4WD,2021,-5750,Cayenne,Plug-in Hybrid,12,0.3,0.0317
+244,14,73,4.4,4050,Premium and Electricity,Premium Gasoline,7,47492,BMW,XM,N,300,,Standard Sport Utility Vehicle 4WD,2024,-5500,XM,Plug-in Hybrid,12,0.3,0.0282
+117,33,43,2.5,1300,Regular Gas and Electricity,Regular Gasoline,10,43774,Lincoln,Corsair AWD PHEV,N,430,,Small Sport Utility Vehicle 4WD,2021,2000,Corsair,Plug-in Hybrid,10,0.3,0.0166
+101,42,33,2,1000,Regular Gas and Electricity,Regular Gasoline,10,41900,Ford,Fusion Special Service PHEV,N,610,,Midsize Cars,2020,3250,Fusion,Plug-in Hybrid,10,0.3,0.0127
+119,30,41,3.6,1400,Regular Gas and Electricity,Regular Gasoline,10,44930,Chrysler,Pacifica Hybrid,Y,520,,Minivan - 2WD,2022,1750,Pacifica,Plug-in Hybrid,12,0.3,0.0158
+122,28,50,2,2000,Premium and Electricity,Premium Gasoline,9,49771,Volvo,XC60 T8 AWD,N,560,,Small Sport Utility Vehicle 4WD,2026,250,XC60,Plug-in Hybrid,10,0.3,0.0193
+320,18,82,4,3150,Premium and Electricity,Premium Gasoline,6,46260,Porsche,Cayenne Turbo S e-Hybrid Coupe,N,370,,Standard Sport Utility Vehicle 4WD,2023,-5750,Cayenne,Plug-in Hybrid,12,0.3,0.0317
+71,48,31,1.6,900,Regular Gas and Electricity,Regular Gasoline,10,49765,Kia,Niro Plug-in Hybrid,N,510,,Small Sport Utility Vehicle 2WD,2026,3750,Niro,Plug-in Hybrid,10,0.3,0.012
+111,33,45,1.6,1300,Regular Gas and Electricity,Regular Gasoline,9,49012,Kia,Sorento Plug-in Hybrid,N,440,,Small Sport Utility Vehicle 4WD,2025,2000,Sorento,Plug-in Hybrid,10,0.3,0.0174
+120,29,44,1.3,1450,Regular Gas and Electricity,Regular Gasoline,9,48652,Alfa Romeo,Tonale eAWD,N,360,,Small Sport Utility Vehicle 4WD,2025,1750,Tonale eAWD,Plug-in Hybrid,10,0.3,0.017
+96,35,40,1.6,1200,Regular Gas and Electricity,Regular Gasoline,10,47497,Kia,Sportage Plug-in Hybrid,N,430,,Small Sport Utility Vehicle 4WD,2024,2500,Sportage,Plug-in Hybrid,10,0.3,0.0154
+379,20,51,2,2800,Premium and Electricity,Premium Gasoline,5,49162,Mercedes-Benz,AMG GLC63 S E Performance (coupe),N,340,,Small Station Wagons,2025,-5000,GLC-Class,Plug-in Hybrid,8.5,0.3,0.0197
+100,35,42,1.6,1200,Regular Gas and Electricity,Regular Gasoline,9,47495,Hyundai,Tucson Plug-in Hybrid,Y,420,,Small Sport Utility Vehicle 4WD,2024,2250,Tucson,Plug-in Hybrid,10,0.3,0.0162
+120,29,44,1.3,1450,Regular Gas and Electricity,Regular Gasoline,9,47275,Dodge,Hornet PHEV AWD,N,360,,Small Sport Utility Vehicle 4WD,2024,1750,Hornet,Plug-in Hybrid,10,0.3,0.017
+260,19,80,2,2950,Premium and Electricity,Premium Gasoline,8,42375,Land Rover,Range Rover PHEV,N,480,,Standard Sport Utility Vehicle 4WD,2020,-4750,Range Rover,Plug-in Hybrid,12,0.3,0.0309
+255,14,73,4.4,4050,Premium and Electricity,Premium Gasoline,7,49010,BMW,XM Label,N,300,,Standard Sport Utility Vehicle 4WD,2025,-5750,XM,Plug-in Hybrid,12,0.3,0.0282
+213,23,63,3,2450,Premium and Electricity,Premium Gasoline,8,43033,Audi,A8 L,N,420,,Large Cars,2021,-2500,A8,Plug-in Hybrid,12,0.3,0.0243
+403,17,76,3.9,3300,Premium and Electricity,Premium Gasoline,4,48661,Ferrari,SF90 XX Spider,N,330,,Two Seaters,2025,-7000,SF90,Plug-in Hybrid,10,0.3,0.0293
+320,18,82,4,3150,Premium and Electricity,Premium Gasoline,6,44443,Porsche,Cayenne Turbo S/Coupe E-Hybrid,N,370,,Standard Sport Utility Vehicle 4WD,2022,-5750,Cayenne,Plug-in Hybrid,12,0.3,0.0317
+230,20,68,2,2100,Regular Gas and Electricity,Regular Gasoline,7,47278,Jeep,Wrangler 4dr 4xe,Y,370,,Small Sport Utility Vehicle 4WD,2024,-1500,Wrangler,Plug-in Hybrid,10,0.3,0.0262
+251,19,74,2.9,2950,Premium and Electricity,Premium Gasoline,7,47489,Bentley,Flying Spur Hybrid,N,430,,Midsize Cars,2024,-4250,Flying Spur,Plug-in Hybrid,10,0.3,0.0286
+50,52,26,2,800,Regular Gas and Electricity,Regular Gasoline,10,49015,Toyota,Prius PHEV SE,N,600,,Midsize Cars,2025,4250,Prius,Plug-in Hybrid,10,0.3,0.01
+122,28,50,2,2000,Premium and Electricity,Premium Gasoline,10,46629,Volvo,XC60 T8 AWD Recharge,N,560,,Small Sport Utility Vehicle 4WD,2023,250,XC60,Plug-in Hybrid,10,0.3,0.0193
+102,21,63,3,2700,Premium and Electricity,Premium Gasoline,9,48668,Land Rover,Range Rover P550 PHEV,N,420,,Standard Sport Utility Vehicle 4WD,2025,-1000,Range Rover,Plug-in Hybrid,12,0.3,0.0243
+274,19,70,4,2950,Premium and Electricity,Premium Gasoline,7,44830,Porsche,Panamera Turbo S E-Hybrid/Exec/ST,N,430,,Large Cars,2022,-4250,Panamera,Plug-in Hybrid,12,0.3,0.027
+203,25,53,2,2250,Premium and Electricity,Premium Gasoline,8,46247,BMW,530e xDrive Sedan,N,320,,Compact Cars,2023,-1500,5 Series,Plug-in Hybrid,8.5,0.3,0.0205
+161,19,64,4,2950,Premium and Electricity,Premium Gasoline,8,49753,Bentley,Continental GTC,N,440,,Minicompact Cars,2026,-2250,Continental,Plug-in Hybrid,8.5,0.3,0.0247
+100,35,42,1.6,1200,Regular Gas and Electricity,Regular Gasoline,10,44360,Hyundai,Tucson Plug-in Hybrid,Y,420,,Small Sport Utility Vehicle 4WD,2022,2250,Tucson,Plug-in Hybrid,10,0.3,0.0162
+196,27,57,2,2100,Premium and Electricity,Premium Gasoline,9,43145,Volvo,XC60 AWD PHEV,Y,520,,Small Sport Utility Vehicle 4WD,2021,-1250,XC60,Plug-in Hybrid,10,0.3,0.022
+257,21,72,3,2700,Premium and Electricity,Premium Gasoline,7,44442,Porsche,Cayenne/Coupe E-Hybrid,N,430,,Standard Sport Utility Vehicle 4WD,2022,-3750,Cayenne,Plug-in Hybrid,12,0.3,0.0278
+193,25,52,2,2250,Premium and Electricity,Premium Gasoline,10,42109,BMW,530e xDrive,Y,330,,Compact Cars,2020,-1250,5 Series,Plug-in Hybrid,8.5,0.3,0.0201
+87,36,40,2.5,1550,Premium and Electricity,Premium Gasoline,10,46254,Lexus,NX 450h Plus AWD,N,550,,Small Sport Utility Vehicle 4WD,2023,1750,NX,Plug-in Hybrid,10,0.3,0.0154
+403,18,66,3.9,3150,Premium and Electricity,Premium Gasoline,5,47219,Ferrari,SF90 Stradale,N,340,,Two Seaters,2023,-6500,SF90 Stradale,Plug-in Hybrid,10,0.3,0.0255
+251,20,70,4,2800,Premium and Electricity,Premium Gasoline,8,49755,Lamborghini,Urus SE,N,450,,Standard Sport Utility Vehicle 4WD,2026,-2750,Urus,Plug-in Hybrid,12,0.3,0.027
+197,27,58,2,2100,Premium and Electricity,Premium Gasoline,10,41948,Volvo,XC90 AWD PHEV,N,520,,Standard Sport Utility Vehicle 4WD,2020,-1500,XC90,Plug-in Hybrid,12,0.3,0.0224
+122,28,50,2,2000,Premium and Electricity,Premium Gasoline,9,48679,Volvo,XC60 T8 AWD,N,560,,Small Sport Utility Vehicle 4WD,2025,250,XC60,Plug-in Hybrid,10,0.3,0.0193
+84,25,52,2,2250,Premium and Electricity,Premium Gasoline,9,48674,Mercedes-Benz,GLC350e 4matic with EQ Hybrid Tech,N,380,,Small Sport Utility Vehicle 4WD,2025,250,GLC-Class,Plug-in Hybrid,10,0.3,0.0201
+155,30,47,2,1900,Premium and Electricity,Premium Gasoline,10,41944,Volvo,S60 AWD PHEV,N,510,,Compact Cars,2020,0,S60,Plug-in Hybrid,8.5,0.3,0.0181
+96,35,40,1.6,1200,Regular Gas and Electricity,Regular Gasoline,10,47223,Kia,Sportage Plug-in Hybrid,N,430,,Small Sport Utility Vehicle 4WD,2023,2500,Sportage,Plug-in Hybrid,10,0.3,0.0154
+304,13,62,4.4,4350,Premium and Electricity,Premium Gasoline,6,49007,BMW,M5 Touring,N,270,,Midsize Station Wagons,2025,-6250,M,Plug-in Hybrid,12,0.3,0.0239
+119,30,41,3.6,1400,Regular Gas and Electricity,Regular Gasoline,10,46249,Chrysler,Pacifica Hybrid,N,520,,Minivan - 2WD,2023,1750,Pacifica,Plug-in Hybrid,12,0.3,0.0158
+230,20,68,2,2100,Regular Gas and Electricity,Regular Gasoline,7,46252,Jeep,Wrangler 4dr 4xe,N,370,,Small Sport Utility Vehicle 4WD,2023,-1500,Wrangler,Plug-in Hybrid,10,0.3,0.0262
+305,18,67,4,3150,Premium and Electricity,Premium Gasoline,6,49020,Mercedes-Benz,AMG S63 E Performance,N,390,,Midsize Cars,2025,-5000,S-Class,Plug-in Hybrid,10,0.3,0.0259
+251,19,74,2.9,2950,Premium and Electricity,Premium Gasoline,7,46245,Bentley,Flying Spur Hybrid,N,430,,Midsize Cars,2023,-4250,Flying Spur,Plug-in Hybrid,10,0.3,0.0286
+120,29,45,3.5,1950,Premium and Electricity,Premium Gasoline,9,49013,Lexus,TX 550h Plus AWD,N,450,,Standard Sport Utility Vehicle 4WD,2025,500,TX,Plug-in Hybrid,12,0.3,0.0174
+413,17,77,3.9,3300,Premium and Electricity,Premium Gasoline,4,48660,Ferrari,SF90 Spider,N,330,,Two Seaters,2025,-7000,SF90,Plug-in Hybrid,10,0.3,0.0297
+131,26,49,2,2150,Premium and Electricity,Premium Gasoline,10,45201,Volvo,XC90 T8 AWD Recharge ext. Range,Y,530,,Standard Sport Utility Vehicle 4WD,2022,0,XC90,Plug-in Hybrid,12,0.3,0.0189
+90,46,32,1.6,900,Regular Gas and Electricity,Regular Gasoline,10,42354,Kia,Niro Plug-in Hybrid,Y,560,,Small Station Wagons,2020,3500,Niro,Plug-in Hybrid,8.5,0.3,0.0124
+107,21,65,3,2700,Premium and Electricity,Premium Gasoline,10,47225,Land Rover,New Range Rover Sport P440 PHEV,N,450,,Standard Sport Utility Vehicle 4WD,2023,-1500,Range Rover,Plug-in Hybrid,12,0.3,0.0251
