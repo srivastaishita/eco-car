@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+<<<<<<< HEAD
 import { useNavigate } from "react-router-dom";
 
 const API_BASE = "http://127.0.0.1:8000";
@@ -44,6 +45,12 @@ function getCarImage(make, model) {
   return found ? found.img : DEFAULT_CAR_IMAGE;
 }
 
+=======
+import { Link, useNavigate } from "react-router-dom";
+
+const API_BASE = "http://127.0.0.1:8000";
+
+>>>>>>> da49d1c79b21fc64ff2946c5ba397b364011ed34
 const Home = () => {
   const navigate = useNavigate();
   const [cars, setCars] = useState([]);
@@ -53,6 +60,7 @@ const Home = () => {
   const [selectedMake, setSelectedMake] = useState("");
   const [selectedModel, setSelectedModel] = useState("");
   const [selectedYear, setSelectedYear] = useState("");
+<<<<<<< HEAD
 
   const CARDS_PER_VIEW = 3;
   const totalFrames = Math.ceil(TOP_RECOMMENDATIONS_GRID.length / CARDS_PER_VIEW);
@@ -70,6 +78,25 @@ const Home = () => {
     const start = frameIndex * CARDS_PER_VIEW;
     return TOP_RECOMMENDATIONS_GRID.slice(start, start + CARDS_PER_VIEW);
   };
+=======
+  const [mileage, setMileage] = useState("");
+  const [error, setError] = useState("");
+
+  const heroImages = [
+    "/photo-1583267746897-2cf415887172.jpeg",
+    "/rolls-royce-black-badge-spectre_173994273530.jpg",
+    "/20260306_102507_f8e97fec.webp",
+    "/Most Expensive Porsche Cars of All Time-jpg-1.webp"
+  ];
+  const [currentHeroIndex, setCurrentHeroIndex] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentHeroIndex((prev) => (prev + 1) % heroImages.length);
+    }, 4000);
+    return () => clearInterval(timer);
+  }, []);
+>>>>>>> da49d1c79b21fc64ff2946c5ba397b364011ed34
 
   // 1. Fetch all cars once and derive makes/models/years on the frontend
   useEffect(() => {
@@ -136,18 +163,36 @@ const Home = () => {
         </div>
         <div className="relative">
           <div className="absolute -inset-4 bg-[#13ec5b]/20 blur-[80px] rounded-full"></div>
+<<<<<<< HEAD
           <img
             className="relative z-10 rounded-2xl border border-white/10 shadow-2xl"
             src="https://images.unsplash.com/photo-1583267746897-2cf415887172"
             alt="EV Charging"
           />
+=======
+          <div className="relative z-10 rounded-2xl border border-white/10 shadow-2xl overflow-hidden bg-[#1a231b]">
+            {heroImages.map((img, idx) => (
+              <img
+                key={idx}
+                className={`w-full object-cover transition-opacity duration-1000 ease-in-out ${idx === 0 ? "relative h-auto block" : "absolute inset-0 h-full"
+                  } ${idx === currentHeroIndex ? "opacity-100" : "opacity-0"}`}
+                src={img}
+                alt="EV Hero Slideshow"
+              />
+            ))}
+          </div>
+>>>>>>> da49d1c79b21fc64ff2946c5ba397b364011ed34
         </div>
       </section>
 
       {/* Config Section */}
       <section className="max-w-7xl mx-auto px-6 pb-16">
         <div className="bg-[#1a231b] p-8 rounded-xl border border-white/5 shadow-xl">
+<<<<<<< HEAD
           <div className="grid md:grid-cols-4 gap-6 items-end">
+=======
+          <div className="grid md:grid-cols-5 gap-6 items-end">
+>>>>>>> da49d1c79b21fc64ff2946c5ba397b364011ed34
             <div>
               <label className="text-[10px] font-bold text-gray-500 uppercase mb-2 block">Make</label>
               <select
@@ -184,12 +229,35 @@ const Home = () => {
               </select>
             </div>
 
+<<<<<<< HEAD
             <button
               onClick={() => {
+=======
+            <div>
+              <label className="text-[10px] font-bold text-gray-500 uppercase mb-2 block">Daily distance (miles)</label>
+              <input
+                type="number"
+                value={mileage}
+                onChange={(e) => setMileage(e.target.value)}
+                placeholder="Avg daily miles"
+                className="w-full bg-[#0a0d0b] border border-white/10 text-sm p-3 rounded-md focus:border-[#13ec5b] outline-none transition-all"
+              />
+            </div>
+
+            <button
+              onClick={() => {
+                if (!selectedMake || !selectedModel || !selectedYear) {
+                  setError("Please select a Make, Model, and Year to calculate impact.");
+                  return;
+                }
+                setError("");
+
+>>>>>>> da49d1c79b21fc64ff2946c5ba397b364011ed34
                 const params = new URLSearchParams();
                 if (selectedMake) params.append("make", selectedMake);
                 if (selectedModel) params.append("model", selectedModel);
                 if (selectedYear) params.append("year", selectedYear);
+<<<<<<< HEAD
                 navigate(`/vehicle?${params.toString()}`);
               }}
               className="bg-[#13ec5b] text-black h-[46px] font-bold rounded-md hover:bg-[#11d652] transition-colors"
@@ -197,6 +265,17 @@ const Home = () => {
               Compare Impact
             </button>
           </div>
+=======
+                if (mileage) params.append("mileage", mileage);
+                navigate(`/vehicle?${params.toString()}`);
+              }}
+              className="bg-[#13ec5b] text-black h-[46px] font-bold rounded-md hover:bg-[#11d652] transition-colors text-sm"
+            >
+              Calculate Impact
+            </button>
+          </div>
+          {error && <p className="mt-4 text-amber-500 text-sm text-center">{error}</p>}
+>>>>>>> da49d1c79b21fc64ff2946c5ba397b364011ed34
         </div>
       </section>
 
@@ -253,6 +332,7 @@ const Home = () => {
       {/* Grid Section - Top Recommendations */}
       <section className="max-w-7xl mx-auto px-6 pb-24">
         <h2 className="text-2xl font-bold mb-10">Top Recommendations</h2>
+<<<<<<< HEAD
         <p className="text-[#13ec5b] text-sm mb-6">Lowest lifecycle carbon emissions from our dataset—best for the planet.</p>
         <div className="relative flex items-center gap-4">
           <button
@@ -309,6 +389,28 @@ const Home = () => {
               <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
             </svg>
           </button>
+=======
+        <div className="grid md:grid-cols-3 gap-6">
+          {[
+            { name: "Volkswagen ID.4", img: "https://imgd.aeplcdn.com/664x374/n/cw/ec/138087/id4-exterior-right-front-three-quarter.jpeg?isig=0&q=80", desc: "Zero tailpipe emissions and strong efficiency." },
+            { name: "Mustang Mach-E", img: "https://d2v1gjawtegg5z.cloudfront.net/posts/preview_images/000/015/446/original/2024_Ford_Mustang_Mach-E_Bronze_02.jpeg?1724260399", desc: "Sporty electric SUV with good performance." },
+            { name: "Rivian R1S", img: "https://upload.wikimedia.org/wikipedia/commons/8/89/2023_Rivian_R1S_Adventure%2C_front_1.29.23.jpg", desc: "Premium electric SUV with large capacity." }
+          ].map((car, index) => (
+            <div key={index} className="bg-[#111812] border border-white/10 rounded-md overflow-hidden hover:border-[#13ec5b]/30 transition-all">
+              <img className="h-48 w-full object-cover" src={car.img} alt={car.name} />
+              <div className="p-4">
+                <h3 className="text-lg font-bold mb-2">{car.name}</h3>
+                <p className="text-gray-400 text-sm mb-4">{car.desc}</p>
+                <Link
+                  to={`/vehicle?name=${encodeURIComponent(car.name)}`}
+                  className="block w-full text-center bg-[#13ec5b] text-black text-xs px-4 py-2 rounded-md font-bold hover:bg-[#11d652] transition-colors"
+                >
+                  View Details
+                </Link>
+              </div>
+            </div>
+          ))}
+>>>>>>> da49d1c79b21fc64ff2946c5ba397b364011ed34
         </div>
       </section>
     </div>

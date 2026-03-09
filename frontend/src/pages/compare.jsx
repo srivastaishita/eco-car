@@ -167,7 +167,11 @@ const Compare = () => {
     <div className="bg-[#0a0d0b] text-white min-h-screen">
       {/* Hero */}
       <section className="max-w-7xl mx-auto px-6 lg:px-20 py-10">
+<<<<<<< HEAD
           <div className="relative rounded-xl overflow-hidden border border-white/10 bg-[#1a231b]">
+=======
+        <div className="relative rounded-xl overflow-hidden border border-white/10 bg-[#1a231b]">
+>>>>>>> da49d1c79b21fc64ff2946c5ba397b364011ed34
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent" />
           <div
             className="absolute inset-0 bg-cover bg-center opacity-40"
@@ -331,13 +335,21 @@ const Compare = () => {
         {/* Mileage input */}
         <div className="mt-6 max-w-md mx-auto">
           <label className="block text-xs font-semibold text-gray-400 mb-1 uppercase tracking-wider">
+<<<<<<< HEAD
             Daily distance (km)
+=======
+            Daily distance (miles)
+>>>>>>> da49d1c79b21fc64ff2946c5ba397b364011ed34
           </label>
           <input
             type="number"
             value={mileage}
             onChange={(e) => setMileage(e.target.value)}
+<<<<<<< HEAD
             placeholder="Enter your average daily km"
+=======
+            placeholder="Enter your average daily miles"
+>>>>>>> da49d1c79b21fc64ff2946c5ba397b364011ed34
             className="w-full bg-[#0a0d0b] border border-white/10 rounded-lg text-sm text-white px-3 py-2 focus:border-[#13ec5b] focus:ring-0"
           />
         </div>
@@ -360,6 +372,7 @@ const Compare = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
+<<<<<<< HEAD
                 title: "Tesla Model 3 vs BMW i4",
                 range: "358 vs 301 mi",
                 accel: "3.1s vs 3.7s",
@@ -376,11 +389,36 @@ const Compare = () => {
                 range: "520 vs 405 mi",
                 accel: "2.5s vs 1.9s",
                 savings: "+15% vs +14%",
+=======
+                title: "Porsche Taycan GTS vs BMW M4 Coupe",
+                range: "246 vs 290 mi",
+                accel: "3.5s vs 3.4s",
+                savings: "+15% vs -8%",
+                aMake: "Porsche", aModel: "Taycan GTS", bMake: "BMW", bModel: "M4 Coupe Competition",
+              },
+              {
+                title: "Audi Q4 e-tron vs Benz GLC350e",
+                range: "258 vs 380 mi",
+                accel: "5.8s vs 6.2s",
+                savings: "+12% vs -4%",
+                aMake: "Audi", aModel: "Q4 50 e-tron quattro", bMake: "Mercedes-Benz", bModel: "GLC350e 4matic with EQ Hybrid Tech",
+              },
+              {
+                title: "Mercedes EQS 450 vs AMG S63 E",
+                range: "305 vs 410 mi",
+                accel: "5.5s vs 4.8s",
+                savings: "+20% vs -15%",
+                aMake: "Mercedes-Benz", aModel: "EQS 450 4matic (SUV)", bMake: "Mercedes-Benz", bModel: "AMG S63 E Performance",
+>>>>>>> da49d1c79b21fc64ff2946c5ba397b364011ed34
               },
             ].map((rec) => (
               <div
                 key={rec.title}
+<<<<<<< HEAD
                 className="bg-[#1a231b] border border-white/10 rounded-xl p-5 hover:border-[#13ec5b]/50 transition-colors"
+=======
+                className="bg-[#1a231b] border border-white/10 rounded-xl p-5 hover:border-[#13ec5b]/50 transition-colors flex flex-col"
+>>>>>>> da49d1c79b21fc64ff2946c5ba397b364011ed34
               >
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-gray-400">
@@ -392,7 +430,11 @@ const Compare = () => {
                   </span>
                 </div>
                 <h4 className="text-lg font-bold mb-3">{rec.title}</h4>
+<<<<<<< HEAD
                 <div className="space-y-2 border-t border-white/10 pt-3 text-sm">
+=======
+                <div className="space-y-2 border-t border-white/10 pt-3 text-sm flex-grow">
+>>>>>>> da49d1c79b21fc64ff2946c5ba397b364011ed34
                   <div className="flex justify-between">
                     <span className="text-gray-400">Range (est.)</span>
                     <span className="font-medium text-[#13ec5b]">{rec.range}</span>
@@ -406,6 +448,22 @@ const Compare = () => {
                     <span className="font-medium text-[#13ec5b]">{rec.savings}</span>
                   </div>
                 </div>
+<<<<<<< HEAD
+=======
+                <button
+                  onClick={() => {
+                    const params = new URLSearchParams();
+                    params.append("aMake", rec.aMake);
+                    params.append("aModel", rec.aModel);
+                    params.append("bMake", rec.bMake);
+                    params.append("bModel", rec.bModel);
+                    navigate(`/comparison-result?${params.toString()}`);
+                  }}
+                  className="mt-6 w-full py-3 border border-[#13ec5b] text-[#13ec5b] rounded-lg font-bold text-sm tracking-wide hover:bg-[#13ec5b] hover:text-black transition-colors"
+                >
+                  COMPARE NOW
+                </button>
+>>>>>>> da49d1c79b21fc64ff2946c5ba397b364011ed34
               </div>
             ))}
           </div>
