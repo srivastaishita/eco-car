@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #13ec5b;
+  --color-darkBg: #0a0d0b;
+  --color-cardBg: #111812;
+  --color-innerCard: #1a231b;
+  --color-footerBg: #0f1711;
+}
+
+/* Base styles - ensure dark background even if Tailwind utilities fail */
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background-color: #0a0d0b;
+  color: #fff;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.glow-effect {
+  box-shadow: 0 0 40px rgba(19, 236, 91, 0.15);
+}
+
+.hero-glow {
+  filter: drop-shadow(0 0 30px rgba(19, 236, 91, 0.2));
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.bg-grid-pattern {
+  background-image: radial-gradient(circle at 2px 2px, rgba(19, 236, 91, 0.05) 1px, transparent 0);
+  background-size: 40px 40px;
+}
