@@ -5,8 +5,6 @@ const API_BASE = "http://127.0.0.1:8000";
 
 const formatNum = (n, digits = 1) => (n != null && !isNaN(n) ? Number(n).toFixed(digits) : "—");
 
-<<<<<<< HEAD
-=======
 const getCarImage = (make, model, defaultImg) => {
   if (!make || !model) return defaultImg;
   const matchStr = `${make} ${model}`.toLowerCase();
@@ -25,7 +23,6 @@ const getCarImage = (make, model, defaultImg) => {
   return defaultImg;
 };
 
->>>>>>> da49d1c79b21fc64ff2946c5ba397b364011ed34
 const ComparisonResult = () => {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
@@ -45,12 +42,6 @@ const ComparisonResult = () => {
 
   useEffect(() => {
     const fetchMatch = async ({ make, model, year }) => {
-<<<<<<< HEAD
-      const params = new URLSearchParams();
-      if (make) params.append("make", make);
-      if (model) params.append("model", model);
-      if (year) params.append("year", year);
-=======
       if (!make || !model) throw new Error("Missing make or model");
 
       // Auto-resolve year if missing by fetching the first match for make/model
@@ -72,7 +63,6 @@ const ComparisonResult = () => {
       params.append("model", model);
       if (targetYear) params.append("year", targetYear);
 
->>>>>>> da49d1c79b21fc64ff2946c5ba397b364011ed34
       const res = await fetch(`${API_BASE}/cars/match?${params.toString()}`);
       if (!res.ok) throw new Error("No match");
       return await res.json();
@@ -81,10 +71,7 @@ const ComparisonResult = () => {
     const run = async () => {
       setLoading(true);
       setError(null);
-<<<<<<< HEAD
-=======
       window.scrollTo(0, 0); // Open at the top
->>>>>>> da49d1c79b21fc64ff2946c5ba397b364011ed34
       try {
         const [a, b] = await Promise.all([
           fetchMatch({ make: aMake, model: aModel, year: aYear }),
@@ -217,11 +204,7 @@ const ComparisonResult = () => {
                 <img
                   alt="Vehicle A"
                   className="w-full h-full object-cover"
-<<<<<<< HEAD
-                  src="https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&w=1200&q=80"
-=======
                   src={getCarImage(carA?.make, carA?.model, "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&w=1200&q=80")}
->>>>>>> da49d1c79b21fc64ff2946c5ba397b364011ed34
                 />
                 <div className="absolute bottom-4 left-4 bg-black/70 backdrop-blur px-3 py-1 rounded-lg border border-white/20">
                   <span className="text-xs font-bold text-[#13ec5b] uppercase">Vehicle A</span>
@@ -249,11 +232,7 @@ const ComparisonResult = () => {
                 <img
                   alt="Vehicle B"
                   className="w-full h-full object-cover opacity-90"
-<<<<<<< HEAD
-                  src="https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=1200&q=80"
-=======
                   src={getCarImage(carB?.make, carB?.model, "https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=1200&q=80")}
->>>>>>> da49d1c79b21fc64ff2946c5ba397b364011ed34
                 />
                 <div className="absolute bottom-4 right-4 bg-black/70 backdrop-blur px-3 py-1 rounded-lg border border-white/20">
                   <span className="text-xs font-bold text-gray-300 uppercase">Vehicle B</span>
@@ -278,11 +257,7 @@ const ComparisonResult = () => {
                     <div className="text-center text-[10px] font-black uppercase tracking-widest text-[#13ec5b]">
                       Vehicle A
                     </div>
-<<<<<<< HEAD
-                    <div className="text-center text-[10px] font-black uppercase tracking-widest text-gray-500">
-=======
                     <div className="text-center text-[10px] font-black uppercase tracking-widest text-[#13ec5b]">
->>>>>>> da49d1c79b21fc64ff2946c5ba397b364011ed34
                       Vehicle B
                     </div>
                   </div>
@@ -303,11 +278,7 @@ const ComparisonResult = () => {
                         ["Grid 100 MI", `${formatNum(carA?.grid_100mi)} kg`, `${formatNum(carB?.grid_100mi)} kg`],
                         ["Trees Needed (Lifetime Offset)", `${carA?.trees_needed ?? "—"} Trees`, `${carB?.trees_needed ?? "—"} Trees`],
                         ["Breakeven Year", carA?.breakeven_year != null ? `${formatNum(carA?.breakeven_year)} Years` : "—", carB?.breakeven_year != null ? `${formatNum(carB?.breakeven_year)} Years` : "—"],
-<<<<<<< HEAD
-                        ["Fuel Type", (Number(carA?.tailpipe_co2) === 0 ? "Electric / BEV" : "ICE") , (Number(carB?.tailpipe_co2) === 0 ? "Electric / BEV" : "ICE")],
-=======
                         ["Fuel Type", (Number(carA?.tailpipe_co2) === 0 ? "Electric / BEV" : "ICE"), (Number(carB?.tailpipe_co2) === 0 ? "Electric / BEV" : "ICE")],
->>>>>>> da49d1c79b21fc64ff2946c5ba397b364011ed34
                       ].map(([label, a, b]) => (
                         <tr key={label} className="hover:bg-white/5 transition-colors border-b border-white/10 last:border-b-0">
                           <td className="py-3 px-6 text-gray-400 font-medium w-1/3">{label}</td>
