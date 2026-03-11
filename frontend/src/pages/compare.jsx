@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE =
+  import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
 
 const MetricRow = ({ label, a, b, highlight = false }) => (
   <div className="grid grid-cols-3 gap-4 py-3 border-b border-white/10 text-sm">
@@ -48,10 +49,13 @@ const Compare = () => {
           setCars(data);
           const uniqueMakes = Array.from(new Set(data.map((c) => c.make))).sort();
           setMakes(uniqueMakes);
+        } else {
+          setError("Unable to load vehicle list. Please try again later.");
         }
       })
       .catch((err) => {
         console.error("Cars fetch error on Compare page:", err);
+        setError("Unable to load vehicle list. Please try again later.");
       });
   }, []);
 

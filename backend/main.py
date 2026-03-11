@@ -42,7 +42,13 @@ def get_cars(
         results = [c for c in results if c["greenwash_risk"].lower() == risk.lower()]
 
     if fuel:
-        results = [c for c in results if fuel.lower() in c["fuelType"].lower()]
+        # JSON uses `fuel_type` (snake_case), while some frontend filters
+        # may send a human-readable fuel string. Normalize on the backend.
+        results = [
+            c
+            for c in results
+            if fuel.lower() in str(c.get("fuel_type", "")).lower()
+        ]
 
     # Add id for frontend (JSON may not have id)
     out = []

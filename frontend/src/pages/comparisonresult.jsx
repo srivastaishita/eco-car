@@ -1,7 +1,9 @@
 import { useEffect, useMemo, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
+import { calculateEmissions } from "../utils/emissionsCalculator";
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE =
+  import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
 
 const formatNum = (n, digits = 1) => (n != null && !isNaN(n) ? Number(n).toFixed(digits) : "—");
 
@@ -77,8 +79,24 @@ const ComparisonResult = () => {
           fetchMatch({ make: aMake, model: aModel, year: aYear }),
           fetchMatch({ make: bMake, model: bModel, year: bYear }),
         ]);
-        setCarA(a);
-        setCarB(b);
+        // Use user mileage (km) if provided to derive lifecycle metrics.
+        const mileageKm = mileageParam ? Number(mileageParam) : null;
+        const dailyMiles =
+          mileageKm && !Number.isNaN(mileageKm)
+            ? mileageKm * 0.621371
+            : undefined;
+
+        let aDerived = {};
+        let bDerived = {};
+        try {
+          aDerived = calculateEmissions(a, dailyMiles);
+          bDerived = calculateEmissions(b, dailyMiles);
+        } catch (calcErr) {
+          console.error("Failed to calculate emissions for comparison:", calcErr);
+        }
+
+        setCarA({ ...a, ...aDerived });
+        setCarB({ ...b, ...bDerived });
       } catch {
         setError("Could not load comparison data. Go back and try different selections.");
       } finally {
@@ -182,6 +200,11 @@ const ComparisonResult = () => {
   return (
     <div className="bg-[#0a0d0b] text-white min-h-screen">
       <main className="max-w-7xl mx-auto px-6 py-10">
+        {error && (
+          <div className="mb-6 rounded-lg border border-amber-500/40 bg-amber-500/10 text-amber-200 px-4 py-3 text-sm">
+            {error}
+          </div>
+        )}
         <div className="mb-6">
           <button
             onClick={() => {

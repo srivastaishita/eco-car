@@ -1,8 +1,13 @@
 import { useEffect, useState } from "react";
 import { useSearchParams, useNavigate } from "react-router-dom";
 import { jsPDF } from "jspdf";
+import {
+  calculateEmissions,
+  DEFAULT_DAILY_MILES,
+} from "../utils/emissionsCalculator";
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE =
+  import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
 
 const FALLBACK_CAR = {
   make: "",
@@ -68,7 +73,13 @@ const ViewDetails = () => {
             const res = await fetch(`${API_BASE}/cars/match?${params}`);
             if (res.ok) {
               const data = await res.json();
-              setCar(data);
+              let derived = {};
+              try {
+                derived = calculateEmissions(data, DEFAULT_DAILY_MILES);
+              } catch (calcErr) {
+                console.error("Failed to calculate emissions for details:", calcErr);
+              }
+              setCar({ ...data, ...derived });
               setLoading(false);
               return;
             }
@@ -94,11 +105,21 @@ const ViewDetails = () => {
             setCar(data);
           } else {
             setError("No matching vehicle found. Try different filters.");
-            setCar({ ...FALLBACK_CAR, make: makeParam || "", model: modelParam || "", model_year: yearParam ? parseInt(yearParam) : "" });
+            setCar({
+              ...FALLBACK_CAR,
+              make: makeParam || "",
+              model: modelParam || "",
+              model_year: yearParam ? parseInt(yearParam) : "",
+            });
           }
         } catch (e) {
           setError("Failed to load vehicle data.");
-          setCar({ ...FALLBACK_CAR, make: makeParam || "", model: modelParam || "", model_year: yearParam ? parseInt(yearParam) : "" });
+          setCar({
+            ...FALLBACK_CAR,
+            make: makeParam || "",
+            model: modelParam || "",
+            model_year: yearParam ? parseInt(yearParam) : "",
+          });
         }
       } else {
         setError("No vehicle selected. Go back and select make, model, or year.");
