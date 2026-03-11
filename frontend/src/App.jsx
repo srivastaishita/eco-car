@@ -8,6 +8,7 @@ import ViewDetails from "./pages/viewdetails";
 import ComparisonResult from "./pages/comparisonresult";
 import ScrollToTop from "./components/ScrollToTop";
 
+
 function App() {
   return (
     <div className="min-h-screen flex flex-col bg-[#0a0d0b]">

@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { calculateEmissions } from "../utils/emissionsCalculator";
+import { useForm } from "../context/FormContext";
 
 const API_BASE =
   import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
@@ -28,19 +29,17 @@ const getCarImage = (make, model, defaultImg) => {
 const ComparisonResult = () => {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
+  const { formData } = useForm();
 
-  const aMake = searchParams.get("aMake") || "";
-  const aModel = searchParams.get("aModel") || "";
-  const aYear = searchParams.get("aYear") || "";
-  const bMake = searchParams.get("bMake") || "";
-  const bModel = searchParams.get("bModel") || "";
-  const bYear = searchParams.get("bYear") || "";
+  const makeParam = searchParams.get("make") || "";
+  const modelParam = searchParams.get("model") || "";
+  const yearParam = searchParams.get("year") || "";
 
   const [carA, setCarA] = useState(null);
   const [carB, setCarB] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const mileageParam = searchParams.get("mileage");
+  const mileageParam = searchParams.get("mileage") || formData.distance || "";
 
   useEffect(() => {
     const fetchMatch = async ({ make, model, year }) => {
@@ -76,8 +75,8 @@ const ComparisonResult = () => {
       window.scrollTo(0, 0); // Open at the top
       try {
         const [a, b] = await Promise.all([
-          fetchMatch({ make: aMake, model: aModel, year: aYear }),
-          fetchMatch({ make: bMake, model: bModel, year: bYear }),
+          fetchMatch({ make: formData.make || makeParam, model: formData.model || modelParam, year: formData.year || yearParam }),
+          fetchMatch({ make: makeParam, model: modelParam, year: yearParam }),
         ]);
         // Use user mileage (km) if provided to derive lifecycle metrics.
         const mileageKm = mileageParam ? Number(mileageParam) : null;
@@ -105,7 +104,7 @@ const ComparisonResult = () => {
     };
 
     run();
-  }, [aMake, aModel, aYear, bMake, bModel, bYear]);
+  }, [formData.make, formData.model, formData.year, makeParam, modelParam, yearParam, mileageParam]);
 
   const tenYearDiff = useMemo(() => {
     const a = Number(carA?.ten_year_op_tons);

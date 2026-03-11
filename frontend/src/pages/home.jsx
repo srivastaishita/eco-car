@@ -1,7 +1,9 @@
 import React, { useEffect, useState, useRef, useCallback } from "react";
 import { useNavigate, Link } from "react-router-dom";
+import { useForm } from "../context/FormContext";
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE =
+  import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
 
 const TOP_RECOMMENDATIONS_GRID = [
   { name: "Volvo S60 FWD", make: "Volvo", model: "S60", img: "https://www.motortrend.com/uploads/2023/05/011-2023-Volvo-S60-Recharge-AWD-Black-Edition-front-three-quarters-in-action.jpg", desc: "Efficient luxury sedan with strong fuel economy." },
@@ -16,15 +18,12 @@ const LOOP_DATA = [...TOP_RECOMMENDATIONS_GRID, ...TOP_RECOMMENDATIONS_GRID.slic
 
 const Home = () => {
   const navigate = useNavigate();
-  
+  const { formData, updateForm } = useForm();
+
   const [cars, setCars] = useState([]);
   const [makes, setMakes] = useState([]);
   const [models, setModels] = useState([]);
   const [years, setYears] = useState([]);
-  const [selectedMake, setSelectedMake] = useState("");
-  const [selectedModel, setSelectedModel] = useState("");
-  const [selectedYear, setSelectedYear] = useState("");
-  const [distanceKm, setDistanceKm] = useState("");
   const [error, setError] = useState("");
 
   const heroImages = [
@@ -120,22 +119,28 @@ const Home = () => {
 
   // 4. Filter Logic
   useEffect(() => {
-    const filtered = selectedMake ? cars.filter(c => c.make === selectedMake) : cars;
+    const filtered = formData.make && formData.make !== "All Makes"
+      ? cars.filter((c) => c.make === formData.make)
+      : cars;
     setModels(Array.from(new Set(filtered.map(c => c.model))).sort());
     setYears(Array.from(new Set(filtered.map(c => c.model_year))).sort());
-  }, [selectedMake, cars]);
+  }, [formData.make, cars]);
 
   const handleCalculate = () => {
-    if (!selectedMake || !selectedModel || !selectedYear) {
+    const hasMake = formData.make && formData.make !== "All Makes";
+    const hasModel = formData.model && formData.model !== "All Models";
+    const hasYear = formData.year && formData.year !== "All Years";
+
+    if (!hasMake || !hasModel || !hasYear) {
       setError("Please select a Make, Model, and Year.");
       return;
     }
     setError("");
     const params = new URLSearchParams({
-      make: selectedMake,
-      model: selectedModel,
-      year: selectedYear,
-      ...(distanceKm && { mileage: distanceKm }),
+      make: formData.make,
+      model: formData.model,
+      year: formData.year,
+      ...(formData.distance && { mileage: formData.distance }),
     });
     navigate(`/vehicle?${params.toString()}`);
   };
@@ -176,28 +181,50 @@ const Home = () => {
           <div className="grid md:grid-cols-5 gap-6 items-end">
             <div>
               <label className="text-[10px] font-bold text-gray-500 uppercase mb-2 block">Make</label>
-              <select value={selectedMake} onChange={(e) => setSelectedMake(e.target.value)} className="w-full bg-[#0a0d0b] border border-white/10 text-sm p-3 rounded-md outline-none focus:border-[#13ec5b]">
+              <select
+                value={formData.make === "All Makes" ? "" : formData.make}
+                onChange={(e) =>
+                  updateForm({ make: e.target.value || "All Makes", model: "All Models", year: "All Years" })
+                }
+                className="w-full bg-[#0a0d0b] border border-white/10 text-sm p-3 rounded-md outline-none focus:border-[#13ec5b]"
+              >
                 <option value="">All Makes</option>
                 {makes.map((m, i) => <option key={i} value={m}>{m}</option>)}
               </select>
             </div>
             <div>
               <label className="text-[10px] font-bold text-gray-500 uppercase mb-2 block">Model</label>
-              <select value={selectedModel} onChange={(e) => setSelectedModel(e.target.value)} className="w-full bg-[#0a0d0b] border border-white/10 text-sm p-3 rounded-md outline-none focus:border-[#13ec5b]">
+              <select
+                value={formData.model === "All Models" ? "" : formData.model}
+                onChange={(e) =>
+                  updateForm({ model: e.target.value || "All Models", year: "All Years" })
+                }
+                className="w-full bg-[#0a0d0b] border border-white/10 text-sm p-3 rounded-md outline-none focus:border-[#13ec5b]"
+              >
                 <option value="">All Models</option>
                 {models.map((m, i) => <option key={i} value={m}>{m}</option>)}
               </select>
             </div>
             <div>
               <label className="text-[10px] font-bold text-gray-500 uppercase mb-2 block">Year</label>
-              <select value={selectedYear} onChange={(e) => setSelectedYear(e.target.value)} className="w-full bg-[#0a0d0b] border border-white/10 text-sm p-3 rounded-md outline-none focus:border-[#13ec5b]">
+              <select
+                value={formData.year === "All Years" ? "" : formData.year}
+                onChange={(e) => updateForm({ year: e.target.value || "All Years" })}
+                className="w-full bg-[#0a0d0b] border border-white/10 text-sm p-3 rounded-md outline-none focus:border-[#13ec5b]"
+              >
                 <option value="">All Years</option>
                 {years.map((y, i) => <option key={i} value={y}>{y}</option>)}
               </select>
             </div>
             <div>
               <label className="text-[10px] font-bold text-gray-500 uppercase mb-2 block">Daily distance (km)</label>
-              <input type="number" value={distanceKm} onChange={(e) => setDistanceKm(e.target.value)} placeholder="Avg daily km" className="w-full bg-[#0a0d0b] border border-white/10 text-sm p-3 rounded-md outline-none focus:border-[#13ec5b]" />
+              <input
+                type="number"
+                value={formData.distance}
+                onChange={(e) => updateForm({ distance: e.target.value })}
+                placeholder="Avg daily km"
+                className="w-full bg-[#0a0d0b] border border-white/10 text-sm p-3 rounded-md outline-none focus:border-[#13ec5b]"
+              />
             </div>
             <button onClick={handleCalculate} className="bg-[#13ec5b] text-black h-[46px] font-bold rounded-md hover:bg-[#11d652] transition-colors">
               Calculate Impact
