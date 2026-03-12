@@ -251,6 +251,26 @@ const ViewDetails = () => {
     fetchCar();
   }, [makeParam, modelParam, yearParam, nameParam, mileageParam, formData.distance]);
 
+  // Logic: Breakeven Year Calculation
+  const calculateBreakeven = (carData) => {
+    if (!carData) return 0;
+    const tailpipe = parseFloat(carData.tailpipe_co2 || carData.co2TailpipeGpm || 0);
+    if (tailpipe > 0) return 0;
+
+    const evMfg = parseFloat(carData.manufacturing_emission || 0);
+    const evAnnualOp = parseFloat(carData.annual_avg_tons || 0);
+    
+    const iceMfgBaseline = 7.0; 
+    const iceAnnualOpBaseline = 4.6; 
+
+    const mfgDebtDiff = evMfg - iceMfgBaseline;
+    const annualSaving = iceAnnualOpBaseline - evAnnualOp;
+
+    return annualSaving > 0 ? mfgDebtDiff / annualSaving : 0;
+  };
+
+  const breakevenYear = calculateBreakeven(car);
+
   // Lifecycle Calculation Logic
   const mfgVal = parseFloat(
     car?.manufacturing_emission || car?.mfg_emissions || 0,
@@ -270,6 +290,9 @@ const ViewDetails = () => {
   const formatNum = (n) =>
     n != null && !isNaN(n) ? Number(n).toFixed(1) : "—";
 
+  const formatGrid = (n) =>
+    n != null && !isNaN(n) ? Number(n).toFixed(4) : "0.0000";
+
   const seriesLabel = car
     ? `${car.make} ${car.model} ${car.model_year ? `(${car.model_year})` : ""}`
     : makeParam
@@ -286,12 +309,12 @@ const ViewDetails = () => {
       tip: "Total CO2 emissions from raw material extraction through disposal.",
     },
     {
-      label: "Annual Avg",
-      icon: "calendar_today",
-      value: formatNum(car?.annual_avg_tons),
-      unit: "tons/yr",
-      sub: "Based on 15k miles",
-      tip: "Average yearly carbon emissions.",
+      label: "Manufacturing",
+      icon: "factory",
+      value: formatNum(car?.manufacturing_emission),
+      unit: "tons",
+      sub: "Production impact",
+      tip: "Footprint from production.",
     },
     {
       label: "10-Year Operational",
@@ -300,6 +323,22 @@ const ViewDetails = () => {
       unit: "tons",
       sub: "Projected usage",
       tip: "Operational emissions over 10 years.",
+    },
+    {
+      label: "Disposal Emission",
+      icon: "recycling",
+      value: formatNum(car?.disposal_emission),
+      unit: "tons",
+      sub: "End of life impact",
+      tip: "End-of-life recycling footprint.",
+    },
+    {
+      label: "Annual Avg",
+      icon: "calendar_today",
+      value: formatNum(car?.annual_avg_tons),
+      unit: "tons/yr",
+      sub: "Based on 15k miles",
+      tip: "Average yearly carbon emissions.",
     },
     {
       label: "Fuel Efficiency",
@@ -312,10 +351,10 @@ const ViewDetails = () => {
     {
       label: "Breakeven Year",
       icon: "balance",
-      value: formatNum(car?.breakeven_year),
+      value: formatNum(breakevenYear),
       unit: "years",
-      sub: "Vs. ICE equivalent",
-      tip: "Years until EV carbon footprint equals a gas vehicle.",
+      sub: "Vs. ICE baseline",
+      tip: "Time until total EV emissions equal a standard gas vehicle.",
     },
     {
       label: "Trees Needed",
@@ -334,25 +373,9 @@ const ViewDetails = () => {
       tip: "Direct exhaust emissions.",
     },
     {
-      label: "Manufacturing",
-      icon: "factory",
-      value: formatNum(car?.manufacturing_emission),
-      unit: "tons",
-      sub: "Production impact",
-      tip: "Footprint from production.",
-    },
-    {
-      label: "Disposal Emission",
-      icon: "recycling",
-      value: formatNum(car?.disposal_emission),
-      unit: "tons",
-      sub: "End of life impact",
-      tip: "End-of-life recycling footprint.",
-    },
-    {
       label: "Grid 100 MI",
       icon: "electric_meter",
-      value: formatNum(car?.grid_100mi),
+      value: formatGrid(car?.grid_100mi),
       unit: "kg",
       sub: "Regional avg energy",
       tip: "Energy consumed based on local grid.",
@@ -380,15 +403,31 @@ const ViewDetails = () => {
               {seriesLabel}
             </span>
           </div>
+          
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
             <div>
-              <h2 className="text-5xl font-bold mb-4">
+              <h2 className="text-5xl font-bold mb-2">
                 Complete Vehicle Lifecycle Analysis
               </h2>
+              
+              <div className="flex items-center gap-3 mb-6 mt-4">
+                <div className={`flex items-center gap-2 px-3 py-1.5 rounded-full border text-[10px] font-black uppercase tracking-widest ${
+                  parseFloat(car?.tailpipe_co2) === 0 
+                    ? 'border-[#13ec5b] text-[#13ec5b] bg-[#13ec5b]/5' 
+                    : 'border-blue-400 text-blue-400 bg-blue-400/5'
+                }`}>
+                  <span className="material-symbols-outlined text-xs">
+                    {parseFloat(car?.tailpipe_co2) === 0 ? 'bolt' : 'settings_input_component'}
+                  </span>
+                  {parseFloat(car?.tailpipe_co2) === 0 ? 'Electric Vehicle (EV)' : 'Internal Combustion (ICE)'}
+                </div>
+              </div>
+
               <p className="text-[#13ec5b]/70 text-lg">
                 Lifecycle carbon impact for {seriesLabel}.
               </p>
             </div>
+
             <button
               className={`px-6 py-2.5 rounded-lg bg-[#13ec5b] text-black font-bold flex items-center gap-2 ${!car && "opacity-30 cursor-not-allowed"}`}
             >
@@ -431,7 +470,6 @@ const ViewDetails = () => {
         >
           <RiskAssessmentCard car={car} />
 
-          {/* Dynamic Multi-Color Lifecycle Breakdown */}
           <div className="bg-[#1a231b] border border-white/10 rounded-2xl overflow-hidden">
             <div className="p-6 border-b border-white/10 flex justify-between items-center">
               <h3 className="text-xl font-bold">Lifecycle Breakdown (%)</h3>
@@ -443,7 +481,6 @@ const ViewDetails = () => {
             <div className="p-8 flex flex-col md:flex-row items-center justify-center gap-12">
               <div className="relative w-64 h-64">
                 <svg className="w-full h-full -rotate-90" viewBox="0 0 100 100">
-                  {/* Disposal Layer (Amber/Base) */}
                   <circle
                     className="text-amber-500/20"
                     cx="50"
@@ -464,7 +501,6 @@ const ViewDetails = () => {
                     strokeDasharray={strokeDasharray}
                     strokeDashoffset="0"
                   />
-                  {/* Operational Layer (Blue) */}
                   <circle
                     className="text-blue-400"
                     cx="50"
@@ -477,7 +513,6 @@ const ViewDetails = () => {
                     strokeDashoffset={operOffset}
                     style={{ transition: "stroke-dashoffset 1s ease-in-out" }}
                   />
-                  {/* Manufacturing Layer (Emerald) */}
                   <circle
                     className="text-[#13ec5b]"
                     cx="50"
