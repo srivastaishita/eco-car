@@ -42,11 +42,11 @@ const Footer = () => {
                 Truth Engine (Comparison)
               </a>
             </li>
-            <li>
-              <a href="/labels" className="hover:text-emerald-400 transition">
+            { /* <li>
+            <a href="/labels" className="hover:text-emerald-400 transition">
                 Nutritional Labels
               </a>
-            </li>
+            </li>*/}
           </ul>
         </div>
 
@@ -72,8 +72,9 @@ const Footer = () => {
 
         {/* Column 4: Technical */}
         <div className="space-y-2">
-          <h3 className="text-white font-semibold mb-4">Transparency</h3>
           <ul className="text-sm space-y-2">
+          { /* <h3 className="text-white font-semibold mb-4">Transparency</h3>
+          
             <li>
               <a
                 href="https://cea.nic.in"
@@ -82,8 +83,8 @@ const Footer = () => {
               >
                 CEA Grid API Source
               </a>
-            </li>
-            <li className="text-[10px] mt-4 opacity-50">
+            </li>*/}
+            <li className="text-[15px] mt-4 ">
               Estimates for educational use. Results vary by grid & driving
               style.
             </li>
