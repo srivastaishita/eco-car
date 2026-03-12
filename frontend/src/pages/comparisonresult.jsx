@@ -31,9 +31,13 @@ const ComparisonResult = () => {
   const navigate = useNavigate();
   const { formData } = useForm();
 
-  const makeParam = searchParams.get("make") || "";
-  const modelParam = searchParams.get("model") || "";
-  const yearParam = searchParams.get("year") || "";
+  // Compare page passes aMake/aModel/aYear and bMake/bModel/bYear
+  const aMake = searchParams.get("aMake") || "";
+  const aModel = searchParams.get("aModel") || "";
+  const aYear = searchParams.get("aYear") || "";
+  const bMake = searchParams.get("bMake") || "";
+  const bModel = searchParams.get("bModel") || "";
+  const bYear = searchParams.get("bYear") || "";
 
   const [carA, setCarA] = useState(null);
   const [carB, setCarB] = useState(null);
@@ -72,13 +76,12 @@ const ComparisonResult = () => {
     const run = async () => {
       setLoading(true);
       setError(null);
-      window.scrollTo(0, 0); // Open at the top
+      window.scrollTo(0, 0);
       try {
         const [a, b] = await Promise.all([
-          fetchMatch({ make: formData.make || makeParam, model: formData.model || modelParam, year: formData.year || yearParam }),
-          fetchMatch({ make: makeParam, model: modelParam, year: yearParam }),
+          fetchMatch({ make: aMake, model: aModel, year: aYear }),
+          fetchMatch({ make: bMake, model: bModel, year: bYear }),
         ]);
-        // Use user mileage (km) if provided to derive lifecycle metrics.
         const mileageKm = mileageParam ? Number(mileageParam) : null;
         const dailyMiles =
           mileageKm && !Number.isNaN(mileageKm)
@@ -103,8 +106,13 @@ const ComparisonResult = () => {
       }
     };
 
-    run();
-  }, [formData.make, formData.model, formData.year, makeParam, modelParam, yearParam, mileageParam]);
+    if (aMake && aModel && bMake && bModel) {
+      run();
+    } else {
+      setLoading(false);
+      setError("No comparison selected. Use the Compare page to choose two vehicles.");
+    }
+  }, [aMake, aModel, aYear, bMake, bModel, bYear, mileageParam]);
 
   const tenYearDiff = useMemo(() => {
     const a = Number(carA?.ten_year_op_tons);
