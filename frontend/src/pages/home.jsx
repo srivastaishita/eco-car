@@ -119,12 +119,26 @@ const Home = () => {
 
   // 4. Filter Logic
   useEffect(() => {
-    const filtered = formData.make && formData.make !== "All Makes"
-      ? cars.filter((c) => c.make === formData.make)
-      : cars;
-    setModels(Array.from(new Set(filtered.map(c => c.model))).sort());
-    setYears(Array.from(new Set(filtered.map(c => c.model_year))).sort());
-  }, [formData.make, cars]);
+    // Step 1: filter by make
+    const makeFiltered =
+      formData.make && formData.make !== "All Makes"
+        ? cars.filter((c) => c.make === formData.make)
+        : cars;
+
+    // Step 2: update models for selected make
+    const uniqueModels = Array.from(new Set(makeFiltered.map((c) => c.model))).sort();
+    setModels(uniqueModels);
+
+    // Step 3: filter by make + model for years
+    const modelFiltered =
+      formData.model && formData.model !== "All Models"
+        ? makeFiltered.filter((c) => c.model === formData.model)
+        : makeFiltered;
+
+    const uniqueYears = Array.from(new Set(modelFiltered.map((c) => c.model_year))).sort();
+    setYears(uniqueYears);
+
+  }, [formData.make, formData.model, cars]);
 
   const handleCalculate = () => {
     const hasMake = formData.make && formData.make !== "All Makes";

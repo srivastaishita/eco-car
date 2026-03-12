@@ -47,14 +47,6 @@ const Footer = () => {
                 Nutritional Labels
               </a>
             </li>
-            <li>
-              <a
-                href="/calculator"
-                className="hover:text-emerald-400 transition"
-              >
-                Break-even Calculator
-              </a>         
-            </li>
           </ul>
         </div>
 
@@ -82,11 +74,6 @@ const Footer = () => {
         <div className="space-y-2">
           <h3 className="text-white font-semibold mb-4">Transparency</h3>
           <ul className="text-sm space-y-2">
-            <li>
-              <a href="/methodology" className="hover:text-emerald-400">
-                LCA Methodology
-              </a>
-            </li>
             <li>
               <a
                 href="https://cea.nic.in"

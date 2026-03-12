@@ -366,23 +366,20 @@ const Compare = () => {
               {
 
                 title: "Porsche Taycan GTS vs BMW M4 Coupe",
-                range: "246 vs 290 mi",
-                accel: "3.5s vs 3.4s",
-                savings: "+15% vs -8%",
+                Totallifecycleemissions: "32.4 vs 48.8t CO₂",
+                Treesneeded: "147 vs 222 Trees",
                 aMake: "Porsche", aModel: "Taycan GTS", bMake: "BMW", bModel: "M4 Coupe Competition",
               },
               {
                 title: "Audi Q4 e-tron vs Benz GLC350e",
-                range: "258 vs 380 mi",
-                accel: "5.8s vs 6.2s",
-                savings: "+12% vs -4%",
+                Totallifecycleemissions: "31.9 vs 36.2t CO₂",
+                Treesneeded: "145 vs 164 Trees",
                 aMake: "Audi", aModel: "Q4 50 e-tron quattro", bMake: "Mercedes-Benz", bModel: "GLC350e 4matic with EQ Hybrid Tech",
               },
               {
                 title: "Mercedes EQS 450 vs AMG S63 E",
-                range: "305 vs 410 mi",
-                accel: "5.5s vs 4.8s",
-                savings: "+20% vs -15%",
+                Totallifecycleemissions: "39.6 vs 615t CO₂",
+                Treesneeded: "180 vs 279 Trees",
                 aMake: "Mercedes-Benz", aModel: "EQS 450 4matic (SUV)", bMake: "Mercedes-Benz", bModel: "AMG S63 E Performance",
 
               },
@@ -404,16 +401,16 @@ const Compare = () => {
 
                 <div className="space-y-2 border-t border-white/10 pt-3 text-sm flex-grow">
                   <div className="flex justify-between">
-                    <span className="text-gray-400">Range (est.)</span>
-                    <span className="font-medium text-[#13ec5b]">{rec.range}</span>
+                    <span className="text-gray-400">Total lifecycle emissions (est.)</span>
+                    <span className="font-medium text-[#13ec5b]">{rec.Totallifecycleemissions}</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-gray-400">0–60 mph</span>
+
                     <span className="font-medium">{rec.accel}</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-gray-400">CO₂ Savings</span>
-                    <span className="font-medium text-[#13ec5b]">{rec.savings}</span>
+                    <span className="text-gray-400">Trees Needed</span>
+                    <span className="font-medium text-[#13ec5b]">{rec.Treesneeded}</span>
                   </div>
                 </div>
                 <button
