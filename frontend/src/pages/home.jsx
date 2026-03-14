@@ -7,10 +7,10 @@ const API_BASE =
 
 const TOP_RECOMMENDATIONS_GRID = [
   { name: "Volvo S60 FWD", make: "Volvo", model: "S60", img: "https://www.motortrend.com/uploads/2023/05/011-2023-Volvo-S60-Recharge-AWD-Black-Edition-front-three-quarters-in-action.jpg", desc: "Efficient luxury sedan with strong fuel economy." },
-  { name: "BMW M340i", make: "BMW", model: "M340i", img: "https://vehicle-images.dealerinspire.com/7cc2-110005802/3MW5U9J00M8B50633/d29201d82d88e5f6bb737b378e000653.jpg", desc: "Sporty performance with refined efficiency." },
   { name: "BMW 440i Coupe", make: "BMW", model: "440i", img: "https://wallpaperaccess.com/full/7068414.jpg", desc: "Coupe style with balanced power and economy." },
   { name: "Subaru WRX", make: "Subaru", model: "WRX", img: "https://www.motorisumotori.it/wp-content/uploads/2024/01/Subaru-WRX-S4-STI-Sport-4.jpg", desc: "Rally-bred performance and all-weather capability." },
   { name: "Toyota Corolla", make: "Toyota", model: "Corolla", img: "https://i.ytimg.com/vi/P9zAB5_Y8as/maxresdefault.jpg", desc: "Reliable hybrid with low lifecycle impact." },
+  { name: "BMW M340i", make: "BMW", model: "M340i", img: "https://vehicle-images.dealerinspire.com/7cc2-110005802/3MW5U9J00M8B50633/d29201d82d88e5f6bb737b378e000653.jpg", desc: "Sporty performance with refined efficiency." },
   { name: "Tesla Model 3", make: "Tesla", model: "Model 3", img: "https://ymimg1.b8cdn.com/uploads/article/8831/pictures/10704690/2024-Tesla-Model-3-Facelift-2.jpg", desc: "Zero tailpipe emissions and strong efficiency." },
 ];
 
