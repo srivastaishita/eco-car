@@ -122,19 +122,24 @@ const ComparisonResult = () => {
     return Math.max(0, Math.round(diff / 10));
   }, [carA, carB, isAWinner]);
 
+  // Performance Trajectory Data Logic
   const trajectoryData = useMemo(() => {
     if (!carA || !carB) return null;
+
     const getPoints = (car) => {
       const mfg = toFiniteNumber(car.manufacturing_emission);
       const annual = toFiniteNumber(car.annual_avg_tons);
       const disposal = toFiniteNumber(car.disposal_emission);
+      // Calculate cumulative values for Year 0 to Year 10
       return Array.from({ length: 11 }, (_, i) => mfg + (annual * i) + (i === 10 ? disposal : 0));
     };
+
     const pointsA = getPoints(carA);
     const pointsB = getPoints(carB);
     const rawMax = Math.max(...pointsA, ...pointsB);
     const maxVal = rawMax > 0 ? rawMax * 1.1 : 1;
     const mapY = (val) => 100 - (toFiniteNumber(val) / maxVal * 100);
+
     return {
       pathA: pointsA.map((v, i) => `${i * 10},${mapY(v)}`).join(" L "),
       pathB: pointsB.map((v, i) => `${i * 10},${mapY(v)}`).join(" L "),
@@ -173,6 +178,7 @@ const ComparisonResult = () => {
           <span className="material-symbols-outlined">arrow_back</span> Back to Compare
         </button>
 
+        {/* Hero + comparison table in one 3-column grid so table aligns with images */}
         {(() => {
           const comparisonRows = [
             ["Model", `${carA?.make} ${carA?.model}`, `${carB?.make} ${carB?.model}`],
@@ -187,7 +193,7 @@ const ComparisonResult = () => {
           ];
           return (
             <section className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
-              {/* Column 1: Vehicle A */}
+              {/* Column 1: Vehicle A image + params */}
               <div className="flex flex-col gap-4">
                 <div className="w-full relative rounded-3xl overflow-hidden aspect-video border border-white/10 shadow-2xl">
                   <img src={vehicleAImg} className="w-full h-full object-cover" alt="Vehicle A" />
@@ -196,18 +202,18 @@ const ComparisonResult = () => {
                   </div>
                 </div>
                 <div className="bg-[#1a231b] border border-white/10 rounded-3xl overflow-hidden shadow-xl flex flex-col">
-                  <div className="p-4 border-b border-white/10 bg-black/20 font-black text-[9px] uppercase tracking-widest text-center text-[#13ec5b]">Vehicle A Metrics</div>
+                  <div className="p-4 border-b border-white/10 bg-black/20 font-black text-[9px] uppercase tracking-widest text-center text-[#13ec5b]">Vehicle A</div>
                   <div className="divide-y divide-white/5">
                     {comparisonRows.map(([lbl, a]) => (
-                      <div key={lbl} className="px-4 py-3 flex justify-between items-start gap-4">
-                        <span className="text-gray-500 font-bold text-[10px] uppercase shrink-0 min-w-[80px]">{lbl}</span>
-                        <span className="text-[#13ec5b] font-black italic text-sm text-right leading-tight">{a}</span>
+                      <div key={lbl} className="px-4 py-3 flex justify-between items-baseline gap-2">
+                        <span className="text-gray-500 font-bold text-xs shrink-0">{lbl}</span>
+                        <span className="text-[#13ec5b] font-black italic text-sm text-right truncate">{a}</span>
                       </div>
                     ))}
                   </div>
                 </div>
               </div>
-              {/* Column 2: Center Conclusions */}
+              {/* Column 2: Savings + Audit conclusion */}
               <div className="flex flex-col gap-4 md:order-2">
                 <div className="flex flex-col items-center justify-center text-center min-h-[180px] md:min-h-0">
                   <h2 className="text-3xl md:text-4xl font-black italic uppercase leading-none">
@@ -222,7 +228,7 @@ const ComparisonResult = () => {
                   <p className="text-xs text-gray-400 italic leading-relaxed">{recommendation?.reason}</p>
                 </div>
               </div>
-              {/* Column 3: Vehicle B */}
+              {/* Column 3: Vehicle B image + params */}
               <div className="flex flex-col gap-4 md:order-3">
                 <div className="w-full relative rounded-3xl overflow-hidden aspect-video border border-white/10 shadow-2xl">
                   <img src={vehicleBImg} className="w-full h-full object-cover opacity-90" alt="Vehicle B" />
@@ -231,12 +237,12 @@ const ComparisonResult = () => {
                   </div>
                 </div>
                 <div className="bg-[#1a231b] border border-white/10 rounded-3xl overflow-hidden shadow-xl flex flex-col">
-                  <div className="p-4 border-b border-white/10 bg-black/20 font-black text-[9px] uppercase tracking-widest text-center text-blue-400">Vehicle B Metrics</div>
+                  <div className="p-4 border-b border-white/10 bg-black/20 font-black text-[9px] uppercase tracking-widest text-center text-blue-400">Vehicle B</div>
                   <div className="divide-y divide-white/5">
                     {comparisonRows.map(([lbl, , b]) => (
-                      <div key={lbl} className="px-4 py-3 flex justify-between items-start gap-4">
-                        <span className="text-gray-500 font-bold text-[10px] uppercase shrink-0 min-w-[80px]">{lbl}</span>
-                        <span className="text-blue-400 font-black italic text-sm text-right leading-tight">{b}</span>
+                      <div key={lbl} className="px-4 py-3 flex justify-between items-baseline gap-2">
+                        <span className="text-gray-500 font-bold text-xs shrink-0">{lbl}</span>
+                        <span className="text-blue-400 font-black italic text-sm text-right truncate">{b}</span>
                       </div>
                     ))}
                   </div>
@@ -247,6 +253,7 @@ const ComparisonResult = () => {
         })()}
 
         <section className="grid lg:grid-cols-2 gap-8 mb-16">
+          {/* Lifecycle Breakdown Section */}
           <div className="bg-[#1a231b] border border-white/10 rounded-3xl p-8">
             <h3 className="font-black text-white flex items-center gap-2 mb-8 uppercase text-[10px] tracking-widest">
               <span className="material-symbols-outlined text-[#13ec5b]">bar_chart</span> Lifecycle Breakdown
@@ -281,30 +288,39 @@ const ComparisonResult = () => {
             </div>
           </div>
 
+          {/* Performance Trajectory Graph Section */}
           <div className="bg-[#1a231b] border border-white/10 rounded-3xl p-8 relative overflow-hidden">
             <h3 className="font-black text-white flex items-center gap-2 mb-6 uppercase text-[10px] tracking-widest">
               <span className="material-symbols-outlined text-[#13ec5b]">timeline</span> Performance Trajectory
             </h3>
+            
             <div className="flex gap-4">
+              {/* Y-Axis: CO₂ emission (t) */}
               <div className="flex flex-col justify-between text-[8px] text-gray-500 font-black pb-8 h-48 border-r border-white/10 pr-2">
-                <span className="text-[7px] uppercase tracking-wider text-gray-400">CO₂ (t)</span>
+                <span className="text-[7px] uppercase tracking-wider text-gray-400">CO₂ emission (t)</span>
                 <span>{Math.round(trajectoryData?.maxVal)}t</span>
                 <span>{Math.round(trajectoryData?.maxVal / 2)}t</span>
                 <span>0t</span>
               </div>
+
               <div className="flex-1">
                 <div className="h-48 relative border-b border-white/10">
                   <svg className="absolute inset-0 w-full h-full" preserveAspectRatio="none" viewBox="0 0 100 100">
+                    {/* Vehicle B - Dashed Blue */}
                     <path d={`M ${trajectoryData?.pathB}`} fill="none" stroke="#60a5fa" strokeDasharray="3" strokeWidth="1.5" />
+                    {/* Vehicle A - Solid Green */}
                     <path d={`M ${trajectoryData?.pathA}`} fill="none" stroke="#13ec5b" strokeWidth="2" />
                   </svg>
+                  
                 </div>
+
+                {/* X-Axis Marks 1 to 10 */}
                 <div className="flex justify-between mt-2 px-0">
                   {[...Array(11).keys()].map(year => (
                     <span key={year} className="text-[8px] text-gray-600 font-black">{year}</span>
                   ))}
                 </div>
-                <p className="text-center text-[7px] text-gray-500 uppercase font-black tracking-widest mt-2">Years of Ownership</p>
+                <p className="text-center text-[7px] text-gray-500 uppercase font-black tracking-widest mt-2">Years of Ownership (Cumulative Debt)</p>
               </div>
             </div>
           </div>
@@ -334,9 +350,10 @@ const ComparisonResult = () => {
               </div>
             </div>
           </div>
+
           <div className="bg-[#1a231b] border border-white/10 rounded-3xl p-8 flex flex-col items-center justify-center text-center">
             <h3 className="font-black text-white mb-2 uppercase text-[10px] tracking-widest">Environmental Equivalence</h3>
-            <p className="text-[9px] text-gray-500 mb-3 max-w-[200px]">Trees needed per year to absorb the difference—choosing the greener one saves this many trees.</p>
+            <p className="text-[9px] text-gray-500 mb-3 max-w-[200px]">Trees needed per year to absorb the difference between the two vehicles—choosing the greener one saves this many trees’ worth of offset.</p>
             <div className="text-7xl mb-4">🌲</div>
             <p className="text-5xl font-black text-[#13ec5b]">{annualTreesSaved}</p>
             <p className="text-[10px] text-gray-500 uppercase font-black tracking-widest">Trees saved annually</p>

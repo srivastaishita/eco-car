@@ -343,8 +343,17 @@ const ViewDetails = () => {
     {
       label: "Fuel Efficiency",
       icon: "bolt",
-      value: car?.fuel_efficiency || "—",
-      unit: "MPGe",
+      value: (() => {
+        const raw = car?.fuel_efficiency;
+        if (!raw || typeof raw !== "string") return "—";
+        const num = raw.replace(/\s*(MPG|MPGe?)\s*$/i, "").trim() || raw;
+        return num;
+      })(),
+      unit: (() => {
+        const raw = car?.fuel_efficiency || "";
+        const isEV = parseFloat(car?.tailpipe_co2) === 0;
+        return isEV ? "MPGe" : "MPG";
+      })(),
       sub: "Combined city/hwy",
       tip: "Miles per gallon equivalent.",
     },
