@@ -185,7 +185,7 @@ const ComparisonResult = () => {
             ["Total Lifecycle", `${formatNum(totalA)}t CO₂`, `${formatNum(totalB)}t CO₂`],
             ["Annual Average", `${formatNum(carA?.annual_avg_tons)}t`, `${formatNum(carB?.annual_avg_tons)}t`],
             ["Manufacturing Cost", `${formatNum(carA?.manufacturing_emission)}t`, `${formatNum(carB?.manufacturing_emission)}t`],
-            ["Tailpipe CO₂", `${formatNum(carA?.tailpipe_co2)} g/km`, `${formatNum(carB?.tailpipe_co2)} g/km`],
+            ["Tailpipe CO₂", `${formatNum(carA?.tailpipe_co2)} g/mi`, `${formatNum(carB?.tailpipe_co2)} g/mi`],
             ["Grid 100 MI", `${formatGrid(carA?.grid_100mi)} kg`, `${formatGrid(carB?.grid_100mi)} kg`],
             ["Trees Needed", `${carA?.trees_needed ?? "—"}`, `${carB?.trees_needed ?? "—"}`],
             ["Breakeven Year", carA?.breakeven_label ?? "—", carB?.breakeven_label ?? "—"],

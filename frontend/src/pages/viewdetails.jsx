@@ -377,7 +377,7 @@ const ViewDetails = () => {
       label: "Tailpipe CO2",
       icon: "smoke_free",
       value: formatNum(car?.tailpipe_co2),
-      unit: "g/km",
+      unit: "g/mi",
       sub: "Direct emissions",
       tip: "Direct exhaust emissions.",
     },

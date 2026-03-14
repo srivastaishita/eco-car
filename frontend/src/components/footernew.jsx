@@ -42,11 +42,11 @@ const Footer = () => {
                 Truth Engine (Comparison)
               </a>
             </li>
-            { /* <li>
-            <a href="/labels" className="hover:text-emerald-400 transition">
-                Nutritional Labels
-              </a>
-            </li>*/}
+            <li>
+            {/*<a href="/home" className="hover:text-emerald-400 transition">
+                Vehicle Analysis
+              </a> */}
+            </li>
           </ul>
         </div>
 
@@ -96,8 +96,8 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto mt-12 pt-6 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center text-[10px] uppercase tracking-widest">
         <p>© 2026 Carbon-Wise Team | Developed for Technex'26</p>
         <div className="flex space-x-6 mt-4 md:mt-0">
-          <a href="/privacy">Privacy Policy</a>
-          <a href="/terms">Terms of Use</a>
+          {/*<a href="/privacy">Privacy Policy</a>
+          <a href="/terms">Terms of Use</a>*/}
         </div>
       </div>
     </footer>
